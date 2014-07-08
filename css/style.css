@@ -849,6 +849,10 @@ h2.title {
 	color:#283043;
 }
 
+#latest-posts .post-content {
+    padding: 15px;
+}
+
 .blog-post-content {
 	border-bottom: 1px solid #D5D5D5;
     border-left: 1px solid #D5D5D5;
@@ -1372,10 +1376,10 @@ ol.commentlist li:first-child {
 
 /* Slogan Area */
 .slogan {
-    min-height: 100px;
-	background: #2780ba url(../images/top-footer-bg.jpg);
-    width: 100%;
-	color:#fff;
+    background: url(../img/px1.jpg) 50% 0 no-repeat fixed;
+    margin: 0 auto;
+    background-position: center center;
+    background-size: cover;
 }
 .slogan h3 {
 	color:#fff;
