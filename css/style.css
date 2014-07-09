@@ -1961,6 +1961,10 @@ p.credits {
     line-height: 38px;
 }
 
+footer .social li:first-child {
+    border-left: 1px solid #414f5a;
+}
+
 .social-icons-footer-bottom {
     float: right;
     margin: 6px 0 0;
