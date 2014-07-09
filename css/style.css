@@ -2352,6 +2352,9 @@ input:focus, textarea:focus {
     -ms-transition: all .5s ease-in-out 0;
     transition: all .5s ease-in-out 0;
 }
+.contact-box:hover, .contact-box:hover h3 {
+  color:#fff !important;
+  }
 
 
 /* Contact Box */
@@ -3064,7 +3067,7 @@ ol li ol.childlist .comment-des,header nav li,.avatar {
     overflow: hidden;
 }
 
-footer a,.contact-box:hover,#options li a.selected,header .top-bar,header .top-bar a,header .social li:hover i,footer .social li:hover i,.content-box:hover>.content-box-icon i,div.content-box div.content-box-icon:hover,div.content-box div.content-box-icon:hover i,#footer h3,.contact-box:hover h3 {
+footer a,#options li a.selected,header .top-bar,header .top-bar a,header .social li:hover i,footer .social li:hover i,.content-box:hover>.content-box-icon i,div.content-box div.content-box-icon:hover,div.content-box div.content-box-icon:hover i,#footer h3,.contact-box:hover h3 {
     color: #555;
 }
 
