@@ -11,6 +11,14 @@ jQuery('body').css('overflowY','hidden');
                 });
 
 
+ /* ==============================================
+Fit Videos
+=============================================== */
+$(window).load(function(){
+    'use strict';
+     $(".fit-vids").fitVids();
+ });
+
 
 /*----------------------------------------------------*/
 /*	Search box expand Section

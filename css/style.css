@@ -4171,7 +4171,7 @@ figure.effect-zoe:hover figcaption > span:nth-child(2) {
 }
  .pager {
     float: left;
-    width: 300px;
+    width: 100%;
     text-align: center;
  }
  .pager a {
