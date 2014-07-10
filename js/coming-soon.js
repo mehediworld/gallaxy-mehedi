@@ -1,46 +1,19 @@
 
 jQuery(document).ready(function() {
 
-    /*
-        Background slideshow
-    */
-    $('.coming-soon').backstretch([
-      "img/backgrounds/6.jpg"
-    , "img/backgrounds/7.jpg"
-    
-    ], {duration: 2000, fade: 850});
+jQuery(function () {
+                var austDay = new Date();
+                austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 30);
+                $('#defaultCountdown').countdown({until: austDay});
+                $('#year').text(austDay.getFullYear());
+            });
 
-    /*
-        Countdown initializer
-    */
-    var now = new Date();
-    var countTo = 64 * 24 * 60 * 60 * 1000 + now.valueOf();
-    $('.counter').countdown(countTo, function(event) {
-        var $this = $(this);
-        switch(event.type) {
-            case "seconds":
-            case "minutes":
-            case "hours":
-            case "days":
-            case "weeks":
-            case "daysLeft":
-                $this.find('span.'+event.type).html(event.value);
-                break;
-            case "finished":
-                $this.hide();
-                break;
-        }
-    });
 
-    /*
-        Tooltips
-    */
-    $('#social a.facebook').tooltip();
-    $('#social a.twitter').tooltip();
-    $('#social a.dribbble').tooltip();
-    $('#social a.googleplus').tooltip();
-    $('#social a.pinterest').tooltip();
-    $('#social a.flickr').tooltip();
+// Or, to start a slideshow, just pass in an array of images
+            jQuery('.coming-soon').backstretch([
+              "img/backgrounds/6.jpg",
+              "img/backgrounds/7.jpg"    
+            ], {fade: 1000, duration: 4000});
 
 
 
