@@ -20,7 +20,9 @@
                 <!-- Google Fonts -->
                 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
                 <link href='http://fonts.googleapis.com/css?family=Raleway:100,200,300,700,800,900' rel='stylesheet' type='text/css'>
-                <!-- Library CSS -->
+               
+				<!-- Library CSS -->
+				
                 <link rel="stylesheet" href="css/bootstrap.css">
                 <link rel="stylesheet" href="css/bootstrap-theme.css">
                 <link rel="stylesheet" href="css/fonts/font-awesome/css/font-awesome.css">
@@ -33,7 +35,7 @@
                 <!-- Theme CSS -->
                 <link rel="stylesheet" href="css/style.css">
                 <!-- Skin -->
-                <link rel="stylesheet" href="css/colors/blue.css" class="colors">
+                <link rel="stylesheet" href="css/colors/green.css" class="colors">
                 <!-- Responsive CSS -->
                 <link rel="stylesheet" href="css/theme-responsive.css">
                 <!-- Switcher CSS -->
@@ -76,7 +78,7 @@
                                         <div class="logo">
                                             <h1>
                                                 <a href="index.html">
-                                                <img class="logo-color" src="img/logos/logo_blue.png" alt="gallaxy" width="160" height="60">
+                                                <img class="logo-color" src="img/logos/logo_green.png" alt="gallaxy" width="160" height="60">
                                                 </a>
                                             </h1>
                                         </div>
@@ -97,9 +99,9 @@
                                         <h2>We Are Coming Soon</h2>
                                         <p>We are under construction and almost ready!</p>
                                         <!-- Coming Soon Plugn -->
-                    <div class="coming-soon-plugin">
-                        <div id="defaultCountdown"></div>
-                    </div>
+											<div class="coming-soon-plugin">
+												<div id="defaultCountdown"></div>
+											</div>
                                     </div>
                                 </div>
                             </div>
@@ -140,16 +142,16 @@
                         </div>
                     </footer>
                 </div>
-                <script src="js/jquery.backstretch.min.js"></script>
-                <script src="js/jquery.countdown.js"></script>
-                <script src="js/coming-soon.js"></script>
+               
+                
+                
                 <section id="style-switcher">
-                    <h2>Style Switcher <a href="#"><i class="fa fa-cog"></i></a></h2>
+                    <h2>Style Switcher <a href="#"><i class="fa fa-cogs"></i></a></h2>
                     <div>
                         <h3>Predefined Colors</h3>
                         <ul class="colors">
-                            <li><a title="Blue" class="blue" href="#"></a></li>
                             <li><a title="Green" class="green" href="#"></a></li>
+                            <li><a title="Blue" class="blue" href="#"></a></li>
                             <li><a title="Orange" class="orange" href="#"></a></li>
                             <li><a title="Purple" class="purple" href="#"></a></li>
                             <li><a title="Red" class="red" href="#"></a></li>
@@ -194,10 +196,12 @@
                     </div>
                 </section>
                 <!-- The Scripts -->
-                <script src="js/jquery.min.js"></script>
+                 <script src="js/jquery.min.js"></script>
                 <script src="js/jquery-migrate-1.0.0.js"></script>
                 <script src="js/jquery-ui.js"></script>
                 <script src="js/bootstrap.js"></script>
+                <script src="js/revolution-slider/js/jquery.themepunch.plugins.min.js"></script> 
+                <script src="js/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
                 <script src="js/jquery.parallax.js"></script>
                 <script src="js/jquery.wait.js"></script>
                 <script src="js/fappear.js"></script> 
@@ -215,14 +219,20 @@
                 <script src="js/jquery.knob.js"></script>
                 <script src="js/imagesloaded.pkgd.min.js"></script>
                 <script src="js/waypoints.min.js"></script>
+<script src="js/wow.js"></script>
                 <script src="js/jquery.fitvids.js"></script>
-                <script src="js/jquery.backstretch.min.js"></script>
-                <script src="js/jquery.countdown.js"></script>
                 <script src="js/spectrum.js"></script>
+				<script src="js/jquery.countdown.js"></script>
                 <script src="js/switcher.js"></script>
                 <script src="js/custom.js"></script>
-
-                <script src="js/coming-soon.js"></script>
+			  <script type="text/javascript">
+					$(function () {
+						var austDay = new Date();
+						austDay = new Date(austDay.getFullYear() + 1, 1 - 1, 30);
+						$('#defaultCountdown').countdown({until: austDay});
+						$('#year').text(austDay.getFullYear());
+					});
+			  </script>                
             </body>
         </html>
 

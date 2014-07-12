@@ -48,6 +48,8 @@ body {
     color: #fff;
 	width:100%;
 	height:100%;
+	background: url(../img/coming-soon-bg.jpg) no-repeat;
+    background-position: center;
 }
 
 .inner-bg{
@@ -73,44 +75,47 @@ body {
     text-shadow: 0 1px 7px rgba(0,0,0,.2);
 }
 
-.counter {
-    margin-top: 40px;
-    text-shadow: 0 1px 5px rgba(0,0,0,.1);
+/*Countdown*/
+#defaultCountdown { 
+	width: 100%;
+	margin: 10px 0; 
+	overflow: hidden;
 }
 
-.counter .days-wrapper,
-.counter .hours-wrapper,
-.counter .minutes-wrapper,
-.counter .seconds-wrapper {
-    display: inline-block;
-    width: 140px;
-    height: 140px;
-    margin: 0 10px;
-    padding: 10px;
-    background: #2d2d2d; /* browsers that don't support rgba */
-    background: rgba(45,45,45,.7);
-    font-size: 18px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
+#defaultCountdown span.countdown_row {
+	overflow: hidden;
 }
 
-.counter .days-wrapper:hover,
-.counter .hours-wrapper:hover,
-.counter .minutes-wrapper:hover,
-.counter .seconds-wrapper:hover {
+#defaultCountdown span.countdown_row span { 
+	font-size: 16px;
+	line-height: 20px;
+	margin-right: 2px;
+	text-align: center;
+	display: inline-block;
+}
+
+#defaultCountdown span.countdown_section {
+	background: none repeat scroll 0 0 rgba(45, 45, 45, 0.7);
+	border-radius: 4px;
+	display: inline-block;
+	font-size: 18px;
+	height: 140px;
+	margin: 0 10px;
+	padding: 35px 10px; 
+	width: 140px;
+	
+}
+#defaultCountdown span.countdown_section:hover{
     background: #2780ba;
     text-shadow: none;
+	
 }
 
-.counter .days,
-.counter .hours,
-.counter .minutes,
-.counter .seconds {
-    font-size: 80px;
-    line-height: 90px;
+#defaultCountdown span.countdown_amount {
+	font-size: 50px !important;
+	padding: 15px;
+	font-family: Arial !important;
 }
-
 
 /*****main Content *****/
 
@@ -203,26 +208,22 @@ body {
         padding: 0 20px;
     }
 
-    .counter .days-wrapper,
-    .counter .hours-wrapper,
-    .counter .minutes-wrapper,
-    .counter .seconds-wrapper {
-        width: 140px;
-        height: 140px;
-        margin: 7px;
-        padding-top: 20px;
-        -moz-border-radius: 70px;
-        -webkit-border-radius: 70px;
-        border-radius: 4px;
-    }
-
-    .counter .days,
-    .counter .hours,
-    .counter .minutes,
-    .counter .seconds {
-        font-size: 60px;
-        line-height: 70px;
-    }
+	#defaultCountdown span.countdown_section {
+	background: none repeat scroll 0 0 rgba(45, 45, 45, 0.7);
+	border-radius: 4px;
+	display: inline-block;
+	font-size: 18px;
+	height: 140px;
+	margin: 10px 10px;
+	padding: 35px 10px; 
+	width: 140px;
+	
+}
+ #defaultCountdown span.countdown_section:hover{
+    background: #2780ba;
+    text-shadow: none;
+	
+}
 
     #subscribe h3 {
         padding: 0 20px;
@@ -249,6 +250,22 @@ body {
         width: 90%;
         margin-top: 10px;
     }
+	#defaultCountdown span.countdown_section {
+	background: none repeat scroll 0 0 rgba(45, 45, 45, 0.7);
+	border-radius: 4px;
+	display: inline-block;
+	font-size: 18px;
+	height: 140px;
+	margin: 10px 10px;
+	padding: 35px 10px; 
+	width: 140px;
+	
+}
+ #defaultCountdown span.countdown_section:hover{
+    background: #2780ba;
+    text-shadow: none;
+	
+}
 
 }
 

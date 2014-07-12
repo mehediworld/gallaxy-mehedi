@@ -1705,7 +1705,7 @@ border-style:none;
 
 .tparrows.preview2.hovered					{	width:300px}						
 .tparrows.preview2:hover					{	background:#fff;}
-.tparrows.preview2:hover:after				{	color:#000}
+.tparrows.preview2:hover:after				{	color:#fff}
 .tparrows.preview2:hover .tp-arr-titleholder{	-webkit-transform: translateX(0px);
 													transform: translateX(0px); }
 													

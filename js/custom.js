@@ -11,13 +11,26 @@ jQuery('body').css('overflowY','hidden');
                 });
 
 
- /* ==============================================
-Fit Videos
+/*-------------------------------------------------*/
+/* =  Animated content
+/*-------------------------------------------------*/
+
+    wow = new WOW(
+        {
+            animateClass: 'animated',
+            offset:       100
+        }
+    );
+
+    wow.init();
+
+/* ==============================================
+    Fit Videos
 =============================================== */
-$(window).load(function(){
-    'use strict';
-     $(".fit-vids").fitVids();
- });
+    jQuery(window).load(function(){
+        'use strict';
+         jQuery(".fit-vids").fitVids();
+    });
 
 
 /*----------------------------------------------------*/
