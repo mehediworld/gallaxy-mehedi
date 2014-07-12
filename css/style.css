@@ -319,7 +319,6 @@ img {
 }
 
 .pattern-overlay {
-    background: rgba(52, 152, 219, 0.75);
     background-image: url("../img/bg_off.png");
 }
 
@@ -348,12 +347,11 @@ img {
 }
 
 .our-clients .carousel-controls {
-    display: block;
+    display: inline-block;
     height: 25px;
-    position: absolute;
-    right: 0;
-    top: 20px;
-    width: 83px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
 }
 
 ul,li,ol {
@@ -1791,13 +1789,11 @@ a.prev.disabled,a.next.disabled {
 }
 
 .carousel-controls a.next {
-    right: 15px;
-    position: absolute;
+    display: inline-block;
 }
 
 .carousel-controls a.prev {
-    right: 45px;
-    position: absolute;
+    display: inline-block;
 }
 
 a.prev,a.next {
@@ -1805,7 +1801,6 @@ a.prev,a.next {
     height: 25px;
     display: block;
     cursor: pointer;
-    background: #3498db;
     color: #fafafa;
     font-size: 20px;
     text-align: center;
@@ -3151,9 +3146,7 @@ footer a,#options li a.selected,header .top-bar,header .top-bar a,header .social
 }
 
 .accordionMod .panel-heading .current {
-    border-color:#3498db;
-    border-width:1px;
-    border-style:solid;
+    border: none;
 }
 .panel-group .panel {
     border: 1px solid #d5d5d5;  
