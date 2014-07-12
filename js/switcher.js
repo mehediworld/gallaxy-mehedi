@@ -14,53 +14,63 @@ jQuery(document).ready(function($) {
 		
 		$(".blue" ).click(function(){
 			$(".colors" ).attr("href", "css/colors/blue.css" );
+			$(".logo-color" ).attr("src", "img/logos/logo_blue.png" );
 			return false;
 		});
 		
 		$(".green" ).click(function(){
 			$(".colors" ).attr("href", "css/colors/green.css" );
+			$(".logo-color" ).attr("src", "img/logos/logo_green.png" );
 			return false;
 		});
 		
 		$(".orange" ).click(function(){
 			$(".colors" ).attr("href", "css/colors/orange.css" );
+			$(".logo-color" ).attr("src", "img/logos/logo_orange.png" );
 			return false;
 		});
 		
 		
 		$(".purple" ).click(function(){
 			$(".colors" ).attr("href", "css/colors/purple.css" );
+			$(".logo-color" ).attr("src", "img/logos/logo_purple.png" );
 			return false;
 		});
 
 		$(".red" ).click(function(){
 			$(".colors" ).attr("href", "css/colors/red.css" );
+			$(".logo-color" ).attr("src", "img/logos/logo_red.png" );
 			return false;
 		});
 
 		$(".magenta" ).click(function(){
 			$(".colors" ).attr("href", "css/colors/magenta.css" );
+			$(".logo-color" ).attr("src", "img/logos/logo_magenta.png" );
 			return false;
 		});
 		
 		
 		$(".brown" ).click(function(){
 			$(".colors" ).attr("href", "css/colors/brown.css" );
+			$(".logo-color" ).attr("src", "img/logos/logo_brown.png" );
 			return false;
 		});
 		
 		$(".gray" ).click(function(){
 			$(".colors" ).attr("href", "css/colors/gray.css" );
+			$(".logo-color" ).attr("src", "img/logos/logo_gray.png" );
 			return false;
 		});
 		
 		$(".teal" ).click(function(){
 			$(".colors" ).attr("href", "css/colors/teal.css" );
+			$(".logo-color" ).attr("src", "img/logos/logo_teal.png" );
 			return false;
 		});
 		
 		$(".golden" ).click(function(){
 			$(".colors" ).attr("href", "css/colors/golden.css" );
+			$(".logo-color" ).attr("src", "img/logos/logo_golden.png" );
 			return false;
 		});
 		
