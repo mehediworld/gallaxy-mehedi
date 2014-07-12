@@ -334,7 +334,6 @@ div.content-box.big.bottom-pad-small {
 }
 
 
-
 .img-content {
 	float:none;
 	margin: 0 0 15px;
@@ -836,11 +835,5 @@ footer section {
     }
     .portfolio-two-column .grid figure {
         width: 50%;
-    }
-}
-@media (min-width: 320px) and (max-width: 1023px)
-{
-    figure.effect-zoe p {
-        bottom: 3em !important;
     }
 }

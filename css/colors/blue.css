@@ -1,5 +1,5 @@
 /*Blue #0488cd */
-.btn:focus, .subscribe-btn, .progress .progress-bar, .accordionMod .panel-heading .current, #current:after, .tp-leftarrow.default:hover, .tp-rightarrow.default:hover, .nivo-prevNav:hover, .nivo-nextNav:hover, .contact-box:hover, .ch-info .ch-info-back, .content-box-about .ch-info-front, figure.effect-zoe figcaption, h2.form-signin-heading {
+.btn:focus, .subscribe-btn, .progress .progress-bar, .accordionMod .panel-heading .current, #current:after, .tp-leftarrow.default:hover, .tp-rightarrow.default:hover, .nivo-prevNav:hover, .nivo-nextNav:hover, .contact-box:hover, .ch-info .ch-info-back, .content-box-about .ch-info-front, figure.effect-zoe figcaption, h2.form-signin-heading, .pricing_plan h3, .pricing_plan.special h3{
     background: #2eaef0;
 }
 
