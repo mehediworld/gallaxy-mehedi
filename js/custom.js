@@ -1,14 +1,14 @@
 
 jQuery(document).ready(function () {
 
-jQuery('body').css('overflowY','hidden');
-                jQuery.waitForImages.hasImgProperties = ['background','backgroundImage'];
-                jQuery('body').waitForImages(function() {
-                    // All descendant images have loaded, now slide up.
+    jQuery('body').css('overflowY','hidden');
+        jQuery.waitForImages.hasImgProperties = ['background','backgroundImage'];
+        jQuery('body').waitForImages(function() {
+        // All descendant images have loaded, now slide up.
 //                        alert("done");
-                    jQuery(".page-mask").fadeOut(500);
-                    jQuery('body').css('overflowY','auto');
-                });
+        jQuery(".page-mask").fadeOut(500);
+        jQuery('body').css('overflowY','auto');
+    });
 
 
 /*-------------------------------------------------*/
