@@ -1,4 +1,5 @@
-/* ===[ Responsive Media Queries ]=== */
+/* ===[ Responsive Media Queries ]===
+   ================================================== */
 
 @media (min-width: 1200px) { 
     body.boxed {
@@ -551,7 +552,8 @@
     #not-found h2 { font-size: 180px }
 }
 
-/* ===[ Blog ]=== */
+/* ===[ Blog ]===
+   ================================================== */
 
 @media (min-width: 980px) and (max-width:1048px) { 
     .blog-showcase-thumb { width: 250px }
@@ -603,7 +605,8 @@
     }
 }
 
-/* ===[ Circular Navigation ]=== */
+/* ===[ Circular Navigation ]===
+   ================================================== */
 
 @media (min-width: 980px) and (max-width:1024px) { 
     .csstransforms .cn-wrapper { font-size: .9em }
@@ -645,7 +648,8 @@
     }
 }
 
-/* ===[ Coming soon page Small devices (tablets, 768px and less) ]=== */
+/* ===[ Coming soon page Small devices (tablets, 768px and less) ]===
+   ================================================== */
 
 @media (max-width: 768px) { 
     .coming-soon-copyright { margin-top: 40px }
@@ -669,15 +673,19 @@
 }
 
 /* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+   ==================================================
    ================================================== */
 
 /* ''''''''''''''''''''''''''''''WEB DEVELOPER'''''''''''''''''''''''''''''''
+   ==================================================
    ================================================== */
 
 /* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+   ==================================================
    ================================================== */
 
-/* ===[ Mobile portrait (320x480) ]=== */
+/* ===[ Mobile portrait (320x480) ]===
+   ================================================== */
 
 @media screen and (max-width:320px) { 
     .grid figure { height: 214px }
@@ -705,7 +713,8 @@
     }
 }
 
-/* ===[ Mobile landscape (480x320) ]=== */
+/* ===[ Mobile landscape (480x320) ]===
+   ================================================== */
 
 @media screen and (min-width:320px) and (orientation:landscape) { 
     .grid figure { height: 332px }
@@ -723,13 +732,15 @@
     }
 }
 
-/* ===[ Small tablet portrait (600x800) ]=== */
+/* ===[ Small tablet portrait (600x800) ]===
+   ================================================== */
 
 @media screen and (min-width:600px) and (orientation:portrait) { 
     .grid figure { height: 420px }
 }
 
-/* ===[ Small tablet landscape (800x600) ]=== */
+/* ===[ Small tablet landscape (800x600) ]===
+   ================================================== */
 
 @media screen and (min-width:800px) and (orientation:landscape) { 
     .grid figure { height: 265px }
@@ -747,7 +758,8 @@
     }
 }
 
-/* ===[ Tablet portrait (768x1024) ]=== */
+/* ===[ Tablet portrait (768x1024) ]===
+   ================================================== */
 
 @media screen and (min-width:768px) and (orientation:portrait) { 
     .grid figure { height: 265px }
@@ -765,39 +777,45 @@
     }
 }
 
-/* ===[ Tablet landscape (1024x768) ]=== */
+/* ===[ Tablet landscape (1024x768) ]===
+   ================================================== */
 
 @media screen and (min-width:1024px) and (orientation:landscape) { 
     .grid figure { height: 346px }
 }
 
 /* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+   ==================================================
    ================================================== */
 
 /* ''''''''''''''''''''''''''''''''''''IPAD''''''''''''''''''''''''''''''''''
+   ==================================================
    ================================================== */
 
 /* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+   ==================================================
    ================================================== */
 
-/* ===[ Ipad ]=== */
+/* ===[ Ipad ]===
+   ================================================== */
 
-/* iPads (landscape) -----------  */
+/* iPads (landscape) -----------   */
 
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) { 
     
 }
 
 /* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+   ==================================================
    ================================================== */
 
-/* iPads (portrait) -----------  */
+/* iPads (portrait) -----------   */
 
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) { 
     
 }
 
-/* screen>1100  */
+/* screen>1100   */
 
 @media screen and (min-width:1100px) { 
     .grid figure { height: 420px }
@@ -827,7 +845,7 @@
     .portfolio-four-column .grid figure { height: 210px }
 }
 
-/* screen>1900  */
+/* screen>1900   */
 
 @media screen and (min-width:1900px) { 
     .portfolio-full-width .grid figure { height: 360px }

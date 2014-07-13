@@ -3505,6 +3505,7 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
 
 /* ===[ Start Shop CSS ]=== */
 
+/* Start Shop CSS */
 .cbp-pgcontainer {
     position: relative;
     width: 100%;
@@ -3522,11 +3523,9 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     position: relative;
     text-align: center;
     margin-top: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 30px;    
 }
-
-/* ===[ If flexbox is supported we'll use it to lay out the grid ]=== */
-
+/* If flexbox is supported we'll use it to lay out the grid */
 .flexbox .cbp-pggrid {
     display: -webkit-flex;
     display: -moz-flex;
@@ -3550,7 +3549,9 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     text-align: left;
 }
 
-.flexbox .cbp-pgcontent-list { display: block }
+.flexbox .cbp-pgcontent-list {
+    display: block;
+}
 
 .cbp-pgcontent {
     border: 3px solid #47a3da;
@@ -3574,20 +3575,22 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     cursor: pointer;
     text-align: center;
 }
+.cbp-pgrotate i:hover {
 
-.cbp-pgrotate i:hover { }
+}
 
 .no-touch .cbp-pgrotate:hover,
 .cbp-pgrotate.cbp-pgrotate-active {
     background: #47a3da;
-    color: #fff;
+    color: #fff;    
 }
 
 .no-touch .cbp-pgrotate:hover:before,
-.cbp-pgrotate.cbp-pgrotate-active:before { color: #fff }
+.cbp-pgrotate.cbp-pgrotate-active:before {
+    color: #fff;
+}
 
-/* ===[ The item with the images will have perspective ]=== */
-
+/* The item with the images will have perspective */
 .cbp-pgitem {
     width: 100%;
     position: relative;
@@ -3600,8 +3603,7 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     backface-visibility: hidden;
 }
 
-/* ===[ The flip container ]=== */
-
+/* The flip container */
 .cbp-pgitem-flip {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -3611,8 +3613,9 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     transition: transform .4s ease-out;
 }
 
-/* ===[ If you want to rotate on hover instead of click,you could use something like this:.cbp-pgrotate:hover+.cbp-pgitem .cbp-pgitem-flip ]=== */
-
+/* If you want to rotate on hover instead of click, you could use something like this: 
+.cbp-pgrotate:hover + .cbp-pgitem .cbp-pgitem-flip
+*/
 .cbp-pgitem.cbp-pgitem-showback .cbp-pgitem-flip {
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
@@ -3629,10 +3632,11 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     backface-visibility: hidden;
 }
 
-.cbp-pgitem img:first-child { position: relative }
+.cbp-pgitem img:first-child {
+    position: relative;
+}
 
-/* ===[ The second image will be rotated so that we'd be looking at the back of it ]=== */
-
+/* The second image will be rotated so that we'd be looking at the back of it */
 .cbp-pgitem img:nth-child(2) {
     position: absolute;
     top: 50%;
@@ -3642,8 +3646,7 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     transform: translateX(-50%) translateY(-50%) rotateY(-180deg);
 }
 
-/* ===[ Fallback for browsers that don't support 3d transforms ]=== */
-
+/* Fallback for browsers that don't support 3d transforms */
 .no-csstransforms3d .cbp-pgitem img:nth-child(2) {
     position: relative;
     top: 0;
@@ -3651,24 +3654,25 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     display: none;
 }
 
-.no-csstransforms3d .cbp-pgitem.cbp-pgitem-showback img:first-child { display: none }
+.no-csstransforms3d .cbp-pgitem.cbp-pgitem-showback img:first-child {
+    display: none;
+}
 
-.no-csstransforms3d .cbp-pgitem.cbp-pgitem-showback img:nth-child(2) { display: block }
+.no-csstransforms3d .cbp-pgitem.cbp-pgitem-showback img:nth-child(2) {
+    display: block;
+}
 
-/* ===[ The options bar ]=== */
-
+/* The options bar */
 .cbp-pgoptions {
     height: 60px;
     width: 100%;
-    border-top: 3px solid #47a3da;
+    border-top: 3px solid #47a3da;;
 }
-
 .cbp-pgoptions i {
     font-size: 22px;
     line-height: 60px;
 }
-
-.cbp-pgoptions>li {
+.cbp-pgoptions > li {
     width: 20%;
     height: 100%;
     float: left;
@@ -3687,9 +3691,13 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     user-select: none;
 }
 
-.cbp-pgoptions>li:first-child { border-left: none }
+.cbp-pgoptions > li:first-child {
+    border-left: none;
+} 
 
-.no-touch .cbp-pgoptions li { color: #47a3da }
+.no-touch .cbp-pgoptions li {
+    color: #47a3da;
+}
 
 .no-touch .cbp-pgoptions li:hover,
 .cbp-pgoptions li.cbp-pgoption-active {
@@ -3698,7 +3706,7 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
 }
 
 .cbp-pgoptions li:before,
-.cbp-pgoptions li>span {
+.cbp-pgoptions li > span {
     font-size: 22px;
     line-height: 60px;
     text-indent: 0;
@@ -3707,23 +3715,29 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
 }
 
 .no-touch .cbp-pgoptions li:hover:before,
-.no-touch .cbp-pgoptions li:hover>span,
-.cbp-pgoptions li.cbp-pgoption-active>span { color: #fff !important }
+.no-touch .cbp-pgoptions li:hover > span,
+.cbp-pgoptions li.cbp-pgoption-active > span  {
+    color: #fff !important;
+}
 
-.cbp-pgoptions li.cbp-pgoptsize>span { font-size: 22px }
+.cbp-pgoptions li.cbp-pgoptsize > span {
+    font-size: 22px;
+}
 
-.cbp-pgoptions li>span { display: block }
+.cbp-pgoptions li > span {
+    display: block;
+}
 
 .cbp-pgoptions li:before {
     position: absolute;
     width: 100%;
     height: 100%;
 }
+.cbp-pgoptfav.cbp-pgoptfav-selected:hover:before {
+    color: #f9c0e0;
+}
 
-.cbp-pgoptfav.cbp-pgoptfav-selected:hover:before { color: #f9c0e0 }
-
-/* ===[ Tooltips ]=== */
-
+/* Tooltips */
 .cbp-pgopttooltip {
     position: absolute;
     bottom: 180%;
@@ -3738,9 +3752,9 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     z-index: 1000;
     visibility: hidden;
     pointer-events: none;
-    -webkit-transition: visibility 0s 0.3s,opacity 0.3s,bottom 0.3s;
-    -moz-transition: visibility 0s 0.3s,opacity 0.3s,bottom 0.3s;
-    transition: visibility 0s 0.3s,opacity 0.3s,bottom 0.3s;
+    -webkit-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
+    -moz-transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
+    transition: visibility 0s 0.3s, opacity 0.3s, bottom 0.3s;
 }
 
 .cbp-pgoptions li:hover .cbp-pgopttooltip,
@@ -3781,14 +3795,15 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     margin-left: -14px;
 }
 
-/* ===[ Size tooltip ]=== */
-
-.cbp-pgoptsize .cbp-pgopttooltip { margin-left: -50px }
+/* Size tooltip */
+.cbp-pgoptsize .cbp-pgopttooltip {
+    margin-left: -50px;
+}
 
 .cbp-pgoptsize .cbp-pgopttooltip span {
     display: block;
     text-indent: 0;
-    background: url(../images/tshirt.svg) no-repeat center center;
+    background: url(../img/tshirt.svg) no-repeat center center;
     background-size: 100%;
     margin: 0 auto 4px;
     text-align: center;
@@ -3828,18 +3843,19 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     line-height: 30px;
 }
 
-/* ===[ Color tooltip ]=== */
+/* Color tooltip */
+.cbp-pgoptcolor .cbp-pgopttooltip {
+    padding: 5px;
+}
 
-.cbp-pgoptcolor .cbp-pgopttooltip { padding: 5px }
-
-.cbp-pgoptions li.cbp-pgoptcolor>span,
+.cbp-pgoptions li.cbp-pgoptcolor > span,
 .cbp-pgoptcolor .cbp-pgopttooltip span {
     display: block;
     margin: 12px auto 0;
     text-indent: -900em;
 }
 
-.cbp-pgoptions li.cbp-pgoptcolor>span {
+.cbp-pgoptions li.cbp-pgoptcolor > span {
     width: 36px;
     height: 36px;
     border: 3px solid #fff;
@@ -3858,15 +3874,25 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     transform: scale(1.1);
 }
 
-.cbp-pgoptcolor span[data-color="c1"] { background: #72bbe9 }
+.cbp-pgoptcolor span[data-color="c1"] {
+    background: #72bbe9;
+}
 
-.cbp-pgoptcolor span[data-color="c2"] { background: #e577aa }
+.cbp-pgoptcolor span[data-color="c2"] {
+    background: #e577aa;
+}
 
-.cbp-pgoptcolor span[data-color="c3"] { background: #e5b178 }
+.cbp-pgoptcolor span[data-color="c3"] {
+    background: #e5b178;
+}
 
-.cbp-pgoptcolor span[data-color="c4"] { background: #7abe93 }
+.cbp-pgoptcolor span[data-color="c4"] {
+    background: #7abe93;
+}
 
-.cbp-pginfo { padding-top: 10px }
+.cbp-pginfo {
+    padding-top: 10px;
+}
 
 .cbp-pginfo:before,
 .cbp-pginfo:after {
@@ -3874,7 +3900,9 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     display: table;
 }
 
-.cbp-pginfo:after { clear: both }
+.cbp-pginfo:after {
+    clear: both;
+}
 
 .cbp-pginfo h3,
 .cbp-pginfo span {
@@ -3895,93 +3923,83 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     text-align: right;
     color: #47a3da;
 }
-
-/* ===[ Single Product View ]=== */
-
+/* Single Product View */
 .product-carousel {
-    background: #f0f0f0;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
-.list_carousel { width: 100% }
-
-.caroufredsel_wrapper { margin: 0px auto !important }
-
-.list_carousel.responsive {
+ .list_carousel {
+    width: 100%;
+ }
+ .caroufredsel_wrapper {
+    margin:0px auto !important;
+ }
+ .list_carousel.responsive {
     width: auto;
     margin-left: 0;
-}
-
-#prev1 {
-    position: absolute;
-    left: 5px;
-    top: 44%;
-}
-
-#next1 {
-    position: absolute;
-    right: 5px;
-    top: 44%;
-}
-
-.pager {
-    float: left;
-    width: 100%;
+ }
+ .caroufredsel-control {
+    display: block;
+    margin-top: 25px;
     text-align: center;
+ }
+ .caroufredsel-control #prev1, .caroufredsel-control #prev3 {
+    display: inline-block !important;
 }
-
-.pager a {
+.caroufredsel-control #next1, .caroufredsel-control #next3 {
+    display: inline-block !important;
+}
+ .pager {
+    float: left;
+    width: 300px;
+    text-align: center;
+ }
+ .pager a {
     margin: 0 5px;
     text-decoration: none;
-}
-
-.pager a.selected { text-decoration: underline }
-
-#prev2 {
+ }
+ .pager a.selected {
+    text-decoration: underline;
+ }
+ #prev2 {
     position: absolute;
     left: 15px;
     bottom: 8px;
 }
-
 #next2 {
     position: absolute;
     right: 15px;
     bottom: 8px;
 }
-
-.timer {
+ .timer {
     background-color: #999;
     height: 6px;
     width: 0px;
-}
-
+ }
 .banner-item {
     float: left;
-    margin: 2px;
-    background: #fff;
+    margin:2px;
+    background:#fff;
     border: 2px solid #47a3da;
 }
-
 .banner-item img {
-    padding: 5px;
+    padding:5px;
     width: 180px;
     height: 100px;
 }
-
 .product-caroufredsel_thumb h2 {
     font-size: 14px;
     padding: 5px;
     margin: 0px;
 }
-
-/* ===[ Product Image Gallery ]=== */
-
-.simpleLens-thumbnails-container a { display: inline-block }
-
-.simpleLens-thumbnails-container a img { display: block }
-
-.simpleLens-container {
+/* Product Image Gallery */
+.simpleLens-thumbnails-container a{
+    display: inline-block;
+}
+.simpleLens-thumbnails-container a img{
+    display: block;
+}
+.simpleLens-container{
     display: table;
     position: relative;
 }
@@ -3990,34 +4008,36 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    position: relative;
+    position:relative;
     height: 300px;
     width: 350px;
 }
 
-.simpleLens-big-image { max-width: 100% }
+.simpleLens-big-image {
+    max-width: 100%;
+}
 
 .simpleLens-lens-image {
     height: auto !important;
     width: 350px;
     display: inline-block;
     text-align: center;
-    margin: 0;
-    box-shadow: none;
-    float: none;
-    position: relative;
+    margin:0;
+    box-shadow:none;
+    float:none;
+    position:relative;
 }
 
-.simpleLens-mouse-cursor {
-    background-color: #CCC;
-    opacity: 0.2;
+.simpleLens-mouse-cursor{
+    background-color:#CCC;
+    opacity:0.2;
     filter: alpha(opacity = 20);
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 1px solid #999;
-    box-shadow: 0 0 2px 2px #999;
-    cursor: none;
+    position:absolute;
+    top:0;
+    left:0;
+    border:1px solid #999;
+    box-shadow:0 0 2px 2px #999;
+    cursor:none;
 }
 
 .simpleLens-lens-element {
@@ -4033,22 +4053,28 @@ figure.effect-zoe:hover figcaption>span:nth-child(2) {
     text-align: center;
 }
 
-.simpleLens-lens-element img {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: auto !important;
-    max-width: none !important;
+.simpleLens-lens-element img{
+    position:relative;
+    top:0;
+    left:0;
+    width:auto !important;
+    max-width:none !important;
 }
-
 .reviews-box {
     width: 100%;
     float: left;
 }
+.reviews {
+    padding-left: 10px;
+}
+.rating-input {
+    position: relative;
+    top: 2px;
+}
 
-.reviews { padding-left: 10px }
-
-.related-product .col-lg-4 { max-width: 390px }
+.related-product .col-lg-4 {
+    max-width: 390px;
+}
 
 /* ===[ End Shop CSS ]=== */
 
@@ -4730,3 +4756,117 @@ input[type=submit].btn-block { width: 100% }
 .pricing_plan.special h3 { color: #fff }
 
 .pricing_plan.special h3 small { color: #fff }
+
+/* Mehedi New CSS for shop page */
+
+#sidebar h3{
+    margin-left: 3px;
+    padding-top: 7px;
+}
+.sidebar-nav li{
+ padding:10px;
+ background-color:#EEEEEE;
+ width:100%;
+ margin-bottom:5px;
+ color:#000;
+ 
+}
+.sidebar-nav li:hover{
+ padding:10px;
+ background-color:#39B3D7;
+ width:100%;
+ margin-bottom:5px;
+ color:#fff !important;
+  -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+ 
+}
+.sidebar-nav li.active {
+ padding:10px;
+ background-color:#2780ba;
+ width:100%;
+ margin-bottom:5px;
+ color:#ffffff !important;
+
+}
+.sidebar-nav li.active a {
+
+ color:#ffffff !important;
+
+}
+.sidebar-nav li.active:hover{
+ padding:10px;
+ background-color:#39B3D7;
+ width:100%;
+ margin-bottom:5px;
+ color:#fff;
+  -webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+
+}
+
+
+.sidebar-nav li a{
+color:#000;
+width:100%
+}
+
+.sidebar-nav li a:hover{
+color:#fff;
+}
+
+.sidebar-nav li a i{
+
+padding-right:10px;
+
+}
+.sidebar-nav li a i:hover{
+color:#fff;
+padding-right:10px;
+}
+#checkoutsteps {list-style: none;margin: 0;padding: 0;}
+#checkoutsteps > li {margin: 0 0 11px;}
+#checkoutsteps .step-title {background: #f2f2f2;border: 1px solid #e1e1e1;color: #1e1e1e;display: block;height: 50px;padding: 0 18px;text-decoration: none;-webkit-transition: opacity .2s linear;transition: opacity .2s linear;}
+#checkoutsteps .step-title.collapsed {border-color: #f2f2f2;color: #7f7f7f;}
+#checkoutsteps a.step-title:hover {opacity: 0.85;filter: alpha(opacity=85);-webkit-transition: opacity .2s linear;transition: opacity .2s linear;}
+#checkoutsteps .step-title .number {color: #7f7f7f;float: right;font-size: 16px;line-height: 49px;}
+#checkoutsteps .step-title h6 {font-size: 16px;font-weight: normal;line-height: 49px;margin: 0;}
+#checkoutsteps .step-content {border: 1px solid #e1e1e1;border-top: 0 none;font-size: 12px;line-height: 20px;padding: 22px 18px 19px;}
+#checkoutsteps .step-content label {font-size: 12px;line-height: 22px;}
+#checkoutsteps .step-content .radio,#checkoutsteps .step-content .checkbox {line-height: 18px;}
+#checkoutsteps .step-content .radio .new-radio,#checkoutsteps .step-content .checkbox .new-checkbox {margin-top: 0;}
+#checkoutsteps .step-content .title {border-bottom: 1px solid #e1e1e1;font-size: 16px;font-weight: normal;line-height: 24px;margin: 0 0 17px;padding: 0 0 10px;position: relative;}
+#checkoutsteps .step-content .title:before {bottom: 0px;content: "";display: block;height: 1px;left: 0;margin: 0 0 -1px;position: absolute;width: 40px;}
+#checkoutsteps .step-content .register-radio {margin: 0 0 22px 39px;}
+#checkoutsteps .step-content ul {list-style-type: disc;}
+#checkoutsteps .step-content .col-1 .buttons-box {margin: 25px 0 0 0;}
+#checkoutsteps .step-content input.last {margin-bottom: 14px;}
+#checkoutsteps .step-content .buttons-box {font-size: 11px;line-height: 1.5;margin-top: 6px;overflow: hidden;padding-top: 10px;text-align: right;}
+#checkoutsteps .step-content .buttons-box .btn {float: left;margin: -10px 10px 0 0;}
+#checkoutsteps .step-content .buttons-box .required {display: inline-block;font-size: 11px;margin-left: 12px;}
+.sidebar.checkout-progress {}
+.sidebar.checkout-progress header {margin: 0 0 13px;}
+.sidebar.checkout-progress .progress-list {margin: 0;}
+.sidebar.checkout-progress .progress-list li {color: #7f7f7f;font-size: 12px;line-height: 20px;margin: 0;padding: 12px 0 7px;}
+.sidebar.checkout-progress .progress-list li + li {border-top-width: 1px;}
+.sidebar.checkout-progress .progress-list li a {color: #7f7f7f;float: right;}
+.sidebar.checkout-progress .progress-list li.active {color: #1e1e1e;font-weight: bold;}
+.sidebar.checkout-progress .progress-list li.active a {display: none;}
+.bg {
+    background-color: #f2f2f2;
+}
+#car-bottom .car-bottom-box {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 27px 30px 30px;
+}
+.shopping-cart-table.table .td-qty input {
+    margin: 0;
+    text-align: center;
+}
+
+
