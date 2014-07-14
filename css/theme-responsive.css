@@ -177,11 +177,11 @@
     header .social i,
     footer .social i { line-height: 40px }
 
-    .phone-email { padding: 12px 0 3px }
+    .phone-login { padding: 12px 0 3px }
 
     .top-bar #search-form { display: none }
 
-    .phone-email a {
+    .phone-login a {
         display: block;
         margin: 0 0 10px;
         text-align: center;
@@ -459,7 +459,7 @@
         padding: 0 !important;
     }
 
-    .phone-email { padding: 12px 0 3px }
+    .phone-login { padding: 12px 0 3px }
 
     .top-bar #search-form { display: none }
 

@@ -344,7 +344,7 @@ a:focus {
 
 #header .main-header {
     min-height: 86px;
-    z-index: 9999;
+    z-index: 999;
     width: 100%;
     position: relative;
     background: #fff;
@@ -361,13 +361,13 @@ header .top-bar {
 
 .topnav .navbar-toggle i { line-height: 20px }
 
-.phone-email { padding: 8px 0 }
+.phone-login { padding: 8px 0 }
 
-.phone-email a { margin-right: 20px }
+.phone-login a { margin-right: 20px }
 
-.phone-email i.icon-phone { font-size: 14px }
+.phone-login i.icon-phone { font-size: 14px }
 
-.phone-email i { margin-right: 7px }
+.phone-login i { margin-right: 3px }
 
 header .social,
 footer .social {
@@ -637,7 +637,7 @@ h2.title {
 
 .btn-pad { margin: 7px }
 
-.btn-grey {
+.btn-default {
     color: #555555 !important;
     outline: 0;
     white-space: nowrap;
@@ -649,7 +649,7 @@ h2.title {
     border-radius: 3px;
 }
 
-.btn-grey:hover {
+.btn-default:hover {
     background: -webkit-linear-gradient(#f8f8f8,#ddd);
     background: -moz-linear-gradient(#f8f8f8,#ddd);
     background: -o-linear-gradient(#f8f8f8,#ddd);
@@ -658,7 +658,7 @@ h2.title {
 }
 
 .btn-color,
-.btn-grey {
+.btn-default {
     -webkit-transition: all .5s ease-in-out !important;
     -moz-transition: all .5s ease-in-out !important;
     -o-transition: all .5s ease-in-out !important;
@@ -4870,3 +4870,67 @@ padding-right:10px;
 }
 
 
+/* Modal */
+
+.login .modal-dialog, .register .modal-dialog {
+    margin: 30px auto;
+    width: 450px;
+}
+
+.login .modal-header, .register .modal-header {
+    border-radius: 5px 5px 0 0;
+    border: 0;
+    color: #fff;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 15px;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.login .modal-body, .register .modal-body {
+    padding: 20px 20px 0;
+}
+
+
+/* Components */
+
+.bs-docs-example-images .img-thumbnail, .bs-docs-example-images > img {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.img-thumbnail .bg-images i {
+    margin: 9px 0 0 9px;
+}
+
+.img-thumbnail.img-circle .bg-images i {
+    margin: 17% 0 0 17%;
+}
+
+.img-thumbnail.img-rounded, .img-thumbnail.img-rounded img, .img-thumbnail.img-rounded .bg-images {
+    border-radius: 4px;
+}
+
+.img-thumbnail.img-circle, .img-thumbnail.img-circle img, .img-thumbnail.img-circle .bg-images {
+    border-radius: 500px;
+}
+
+.img-thumbnail .bg-images {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.2s ease-out 0s;
+}
+
+.img-thumbnail {
+    border-radius: 0;
+    display: inline-block;
+    line-height: 0;
+    position: relative;
+    transition: opacity 0.2s ease-in 0s;
+}
