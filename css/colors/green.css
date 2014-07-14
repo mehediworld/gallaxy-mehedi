@@ -35,6 +35,10 @@
     border-color: #82dc23 !important;
 }
 
+.sidebar-nav li.active:hover {
+    background-color: #82dc23 !important;
+}
+
 .btn-color {
 
     color: #fff !important;
@@ -66,7 +70,7 @@ ul.why li:before {
 
 }
 
-a, .post-item h4 a:hover, .cn-wrapper li a:hover, .cn-wrapper li a.active, .color, ul.list.icons li i, #current, #current span, .menu ul > li > a:hover, .menu ul > li > a:hover span, #not-found h2, .bx-wrapper .bx-controls-direction a i {
+a, .post-item h4 a:hover, .cn-wrapper li a:hover, .cn-wrapper li a.active, .color, ul.list.icons li i, #current, #current span, .menu ul > li > a:hover, .menu ul > li > a:hover span, #not-found h2, .bx-wrapper .bx-controls-direction a i, .pagination > li > a, .pagination > li > span, .phone-login a:hover, .price {
     color: #59ab02;
 }
 
@@ -79,6 +83,6 @@ a, .post-item h4 a:hover, .cn-wrapper li a:hover, .cn-wrapper li a.active, .colo
     background-color: rgba(89, 171, 2, 0.75);
 }
 
-.pricing_plan h3, .pricing_plan.special h3 {
+.pricing_plan h3, .pricing_plan.special h3, .sidebar-nav li.active, .sidebar-nav li:hover, .btn.btn-shopping-cart .fa {
     background-color: #59ab02;
 }

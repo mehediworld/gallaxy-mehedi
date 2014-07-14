@@ -33,13 +33,6 @@ jQuery(document).ready(function () {
     });
 
 
-/*----------------------------------------------------*/
-/*	Search box expand Section
-/*----------------------------------------------------*/
-	    
-	jQuery(".search-text-box").focus(function(){
-	   jQuery("ul.social").animate({ marginLeft: "-120px"}, 450, "easeInSine")
-	});
 
 
 /*----------------------------------------------------*/
@@ -317,10 +310,9 @@ jQuery(document).ready(function() {
 /*----------------------------------------------------*/
 
 	jQuery('.portfolio-carousel').carousel({interval: false, wrap: false});
-	
-	
+	jQuery('.product-carousel').carousel({interval: false, wrap: false});
+    jQuery('.product-zoom-carousel').carousel({interval: false, wrap: false});  
 	jQuery('.client-carousel').carousel({interval: false, wrap: false});
-	
 	jQuery('.testimonials-carousel').carousel({interval: 5000, pause: "hover"});
 
 

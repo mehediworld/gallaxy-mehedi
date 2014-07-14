@@ -79,9 +79,36 @@
                                         </ul>
                                     </div>
                                     <div class="phone-login pull-right">
-                                        <a><i class="fa fa-phone"></i> Call Us : +880 111-111-111</a>
+                                        <!-- Currency Selector -->
+                                        <div class="btn-group currency btn-select">
+                                            <a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle">
+                                            <span class="hidden-xs"><img src="img/shop/currency.png" alt=""></span><span class="visible-xs"><img src="img/shop/currency.png" alt=""></span>
+                                            <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#"><img alt="" src="img/shop/flags/USA.png"> USD</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/France.png"> EURO</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/Bangladesh.png"> BDT</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Currency Selector -->
+                                        <!-- Language Selector -->
+                                        <div class="btn-group language btn-select">
+                                            <a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle">
+                                            <span class="hidden-xs"><img src="img/shop/flags/USA.png" alt=""></span><span class="visible-xs"><img src="img/shop/flags/USA.png" alt=""></span>
+                                            <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#"><img alt="" src="img/shop/flags/USA.png"> English</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/France.png"> France</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/Germany.png"> Germany</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Language Selector -->
+                                        <a href="my-account.html"><i class="fa fa-user"></i> My Account</a>
+                                        <a href="#"><i class="fa fa-list-alt"></i> My Wishlist</a>
+                                        <a href="checkout.html"><i class="fa fa-shopping-cart"></i> Checkout</a>
                                         <a href="#" data-toggle="modal" data-target="#loginModal"><i class="fa fa-sign-in"></i> Login</a>
-                                        <a href="#" data-toggle="modal" data-target="#registrationModal"><i class="fa fa-edit"></i> Registration</a>
                                     </div>
                                 </div>
                             </div>
@@ -126,6 +153,7 @@
                                             <ul>
                                                 <li><a href="index.html" class="sf-with-ul">Home </a></li>
                                                 <li><a href="index-2.html" class="sf-with-ul">Home 2</a></li>
+<li><a href="index-shop.html" class="sf-with-ul">Home Shop</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -137,6 +165,7 @@
                                             </a>
                                             <ul>
                                                 <li><a href="shortcodes.html" class="sf-with-ul">Shortcodes</a></li>
+                                                <li><a href="components.html" class="sf-with-ul">Components</a></li>
                                                 <li><a href="icons.html" class="sf-with-ul">Icons</a></li>
                                                 <li><a href="columns.html" class="sf-with-ul">Columns</a></li>
                                                 <li><a href="pricing-table.html" class="sf-with-ul">Pricing Tables</a></li>
@@ -153,6 +182,36 @@
                                                         <li><a href="#" class="sf-with-ul">Menu Item</a></li>
                                                     </ul>
                                                 </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a id="current" href="#" class="sf-with-ul">
+                                            Shop 
+                                            <span class="sf-sub-indicator">
+                                            <i class="fa fa-angle-down "></i>
+                                            </span>
+                                            </a>
+                                            <ul>
+                                                <li><a href="shop.html" class="sf-with-ul">Products</a></li>
+                                                <li><a href="product-view.html" class="sf-with-ul">Product View</a></li>
+                                                <li><a href="shoping-cart.html" class="sf-with-ul">Shoping Cart</a></li>
+                                                <li><a href="checkout.html" class="sf-with-ul">Proceed to Checkout</a></li>
+                                                <li>
+                                                    <a href="#" class="sf-with-ul"> 
+                                                    My Account
+                                                    <span class="sf-sub-indicator pull-right">
+                                                    <i class="fa fa-angle-right "></i>
+                                                    </span>
+                                                    </a>
+                                                    <ul>
+                                                        <li><a href="my-account.html" class="sf-with-ul">My Account</a></li>
+                                                        <li><a href="my-account-information.html" class="sf-with-ul">My Account Information</a></li>
+                                                        <li><a href="my-address.html" class="sf-with-ul">My Address</a></li>
+                                                        <li><a href="my-orders.html" class="sf-with-ul">My Orders</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="confirmation.html" class="sf-with-ul">Confirmation Page</a></li>
+                                                <li><a href="password-recovery.html" class="sf-with-ul">Password Recovery</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -228,7 +287,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a id="current" href="#">
+                                            <a href="#">
                                             Contact
                                             <span class="sf-sub-indicator">
                                             <i class="fa fa-angle-down"></i>
@@ -261,7 +320,8 @@
                                             <div class="breadcrumbs pull-right">
                                                 <ul>
                                                     <li>You are Now on:</li>
-                                                    <li><a href="my-order.html">Shop</a></li>
+                                                    <li><a href="index.html">Home</a></li>
+                                                    <li><a href="shop.html">Shop</a></li>
                                                     <li>My Orders</li>
                                                 </ul>
                                             </div>
@@ -298,8 +358,8 @@
 											<td class="text-primary"><em>New</em></td>
 											<td class="text-center last">
 											  <div class="btn-group">
-												<a href="#" class="btn btn-success">View Order</a>
-												<a href="#" class="btn btn-info">Reorder</a>
+												<a href="#" class="btn btn-color">View Order</a>
+												<a href="#" class="btn btn-default">Reorder</a>
 											  </div>
 											</td>
 										  </tr>
@@ -311,8 +371,8 @@
 											<td class="text-success"><em>Performed</em></td>
 											<td class="text-center last">
 											  <div class="btn-group">
-												<a href="#" class="btn btn-success">View Order</a>
-												<a href="#" class="btn btn-info">Reorder</a>
+												<a href="#" class="btn btn-color">View Order</a>
+												<a href="#" class="btn btn-default">Reorder</a>
 											  </div>
 											</td>
 										  </tr>
@@ -324,8 +384,8 @@
 											<td class="text-danger"><em>Canceled</em></td>
 											<td class="text-center last">
 											  <div class="btn-group">
-												<a href="#" class="btn btn-success">View Order</a>
-												<a href="#" class="btn btn-info">Reorder</a>
+												<a href="#" class="btn btn-color">View Order</a>
+												<a href="#" class="btn btn-default">Reorder</a>
 											  </div>
 											</td>
 										  </tr>
@@ -337,8 +397,8 @@
 											<td class="text-warning"><em>Pending</em></td>
 											<td class="text-center last">
 											  <div class="btn-group">
-												<a href="#" class="btn btn-success">View Order</a>
-												<a href="#" class="btn btn-info">Reorder</a>
+												<a href="#" class="btn btn-color">View Order</a>
+												<a href="#" class="btn btn-default">Reorder</a>
 											  </div>
 											</td>
 										  </tr>
@@ -350,8 +410,8 @@
 											<td class="text-success"><em>Performed</em></td>
 											<td class="text-center last">
 											  <div class="btn-group">
-												<a href="#" class="btn btn-success">View Order</a>
-												<a href="#" class="btn btn-info">Reorder</a>
+												<a href="#" class="btn btn-color">View Order</a>
+												<a href="#" class="btn btn-default">Reorder</a>
 											  </div>
 											</td>
 										  </tr>
@@ -363,8 +423,8 @@
 											<td class="text-success"><em>Performed</em></td>
 											<td class="text-center last">
 											  <div class="btn-group">
-												<a href="#" class="btn btn-success">View Order</a>
-												<a href="#" class="btn btn-info">Reorder</a>
+												<a href="#" class="btn btn-color">View Order</a>
+												<a href="#" class="btn btn-default">Reorder</a>
 											  </div>
 											</td>
 										  </tr>
@@ -376,8 +436,8 @@
 											<td class="text-danger"><em>Canceled</em></td>
 											<td class="text-center last">
 											  <div class="btn-group">
-												<a href="#" class="btn btn-success">View Order</a>
-												<a href="#" class="btn btn-info">Reorder</a>
+												<a href="#" class="btn btn-color">View Order</a>
+												<a href="#" class="btn btn-default">Reorder</a>
 											  </div>
 											</td>
 										  </tr>
@@ -389,8 +449,8 @@
 											<td class="text-warning"><em>Pending</em></td>
 											<td class="text-center last">
 											  <div class="btn-group">
-												<a href="#" class="btn btn-success">View Order</a>
-												<a href="#" class="btn btn-info">Reorder</a>
+												<a href="#" class="btn btn-color">View Order</a>
+												<a href="#" class="btn btn-default">Reorder</a>
 											  </div>
 											</td>
 										  </tr>
@@ -402,8 +462,8 @@
 											<td class="text-success"><em>Performed</em></td>
 											<td class="text-center last">
 											  <div class="btn-group">
-												<a href="#" class="btn btn-success">View Order</a>
-												<a href="#" class="btn btn-info">Reorder</a>
+												<a href="#" class="btn btn-color">View Order</a>
+												<a href="#" class="btn btn-default">Reorder</a>
 											  </div>
 											</td>
 										  </tr>
@@ -415,8 +475,8 @@
 											<td class="text-success"><em>Performed</em></td>
 											<td class="text-center last">
 											  <div class="btn-group">
-												<a href="#" class="btn btn-success">View Order</a>
-												<a href="#" class="btn btn-info">Reorder</a>
+												<a href="#" class="btn btn-color">View Order</a>
+												<a href="#" class="btn btn-default">Reorder</a>
 											  </div>
 											</td>
 										  </tr>
@@ -444,7 +504,7 @@
 										<a href="my-address.html"><i class="fa fa-pencil-square-o item-icon"></i>Address Book</a>
 									  </li>
 									  <li class="active">
-										<a href="my-order.html"><i class="fa fa-shopping-cart item-icon"></i>My Orders</a>
+										<a href="my-orders.html"><i class="fa fa-shopping-cart item-icon"></i>My Orders</a>
 									  </li>
 									</ul>
 								 </div>
@@ -534,8 +594,91 @@
                                 </div>
                             </div>
                             <!-- Footer Bottom End --> 
+                        
+                            <!-- /Footer Bottom --> 
                         </div>
                     </footer>
+                    <!-- Modal -->
+                    <section id="modals">
+                        <!-- Login Modal -->
+                        <div class="modal login fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2 class="form-signin-heading modal-title" id="myModalLabel">Login</h2>
+                                    </div>
+                                    <form method="post" id="login">
+                                        <div class="modal-body">
+                                            <fieldset>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <input class="form-control" id="username" name="username" type="text" placeholder="Username" value="" required>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <input class="form-control" type="email" id="email" name="email" placeholder="Email" value="" required>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="password-recovery.html" class="pull-left">(Lost Password?)</a>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-color">Login</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Logan Modal -->
+                        <!-- Registration Modal -->
+                        <div class="modal register fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2 class="form-signin-heading modal-title" id="myModalLabel">Create a new account</h2>
+                                    </div>
+                                    <form method="post" id="login">
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="form-group">
+                                                    <div class="col-md-6">
+                                                        <input type="text" value="" class="form-control" placeholder="First Name">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="text" value="" class="form-control" placeholder="Last Name">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <input type="text" value="" class="form-control" placeholder="E-mail Address">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group">
+                                                    <div class="col-md-6">
+                                                        <input type="password" value="" class="form-control" placeholder="Password">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="password" value="" class="form-control" placeholder="Re-enter Password">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-color">Register</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Registration Modal -->
+                    </section>
                     <!-- Scroll To Top --> 
                     <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>
                 </div>

@@ -81,6 +81,10 @@
         border-top: 0;
     }
 
+    .phone-login a {
+        margin-right: 15px;
+    }
+
     #flickrfeed li { margin: 3px 3px 0 0 }
 
     .team .item { margin-top: 25px }

@@ -79,9 +79,36 @@
                                         </ul>
                                     </div>
                                     <div class="phone-login pull-right">
-                                        <a><i class="fa fa-phone"></i> Call Us : +880 111-111-111</a>
+                                        <!-- Currency Selector -->
+                                        <div class="btn-group currency btn-select">
+                                            <a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle">
+                                            <span class="hidden-xs"><img src="img/shop/currency.png" alt=""></span><span class="visible-xs"><img src="img/shop/currency.png" alt=""></span>
+                                            <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#"><img alt="" src="img/shop/flags/USA.png"> USD</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/France.png"> EURO</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/Bangladesh.png"> BDT</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Currency Selector -->
+                                        <!-- Language Selector -->
+                                        <div class="btn-group language btn-select">
+                                            <a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle">
+                                            <span class="hidden-xs"><img src="img/shop/flags/USA.png" alt=""></span><span class="visible-xs"><img src="img/shop/flags/USA.png" alt=""></span>
+                                            <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#"><img alt="" src="img/shop/flags/USA.png"> English</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/France.png"> France</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/Germany.png"> Germany</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Language Selector -->
+                                        <a href="my-account.html"><i class="fa fa-user"></i> My Account</a>
+                                        <a href="#"><i class="fa fa-list-alt"></i> My Wishlist</a>
+                                        <a href="checkout.html"><i class="fa fa-shopping-cart"></i> Checkout</a>
                                         <a href="#" data-toggle="modal" data-target="#loginModal"><i class="fa fa-sign-in"></i> Login</a>
-                                        <a href="#" data-toggle="modal" data-target="#registrationModal"><i class="fa fa-edit"></i> Registration</a>
                                     </div>
                                 </div>
                             </div>
@@ -126,6 +153,7 @@
                                             <ul>
                                                 <li><a href="index.html" class="sf-with-ul">Home </a></li>
                                                 <li><a href="index-2.html" class="sf-with-ul">Home 2</a></li>
+<li><a href="index-shop.html" class="sf-with-ul">Home Shop</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -137,6 +165,7 @@
                                             </a>
                                             <ul>
                                                 <li><a href="shortcodes.html" class="sf-with-ul">Shortcodes</a></li>
+                                                <li><a href="components.html" class="sf-with-ul">Components</a></li>
                                                 <li><a href="icons.html" class="sf-with-ul">Icons</a></li>
                                                 <li><a href="columns.html" class="sf-with-ul">Columns</a></li>
                                                 <li><a href="pricing-table.html" class="sf-with-ul">Pricing Tables</a></li>
@@ -153,6 +182,36 @@
                                                         <li><a href="#" class="sf-with-ul">Menu Item</a></li>
                                                     </ul>
                                                 </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a id="current" href="#" class="sf-with-ul">
+                                            Shop 
+                                            <span class="sf-sub-indicator">
+                                            <i class="fa fa-angle-down "></i>
+                                            </span>
+                                            </a>
+                                            <ul>
+                                                <li><a href="shop.html" class="sf-with-ul">Products</a></li>
+                                                <li><a href="product-view.html" class="sf-with-ul">Product View</a></li>
+                                                <li><a href="shoping-cart.html" class="sf-with-ul">Shoping Cart</a></li>
+                                                <li><a href="checkout.html" class="sf-with-ul">Proceed to Checkout</a></li>
+                                                <li>
+                                                    <a href="#" class="sf-with-ul"> 
+                                                    My Account
+                                                    <span class="sf-sub-indicator pull-right">
+                                                    <i class="fa fa-angle-right "></i>
+                                                    </span>
+                                                    </a>
+                                                    <ul>
+                                                        <li><a href="my-account.html" class="sf-with-ul">My Account</a></li>
+                                                        <li><a href="my-account-information.html" class="sf-with-ul">My Account Information</a></li>
+                                                        <li><a href="my-address.html" class="sf-with-ul">My Address</a></li>
+                                                        <li><a href="my-orders.html" class="sf-with-ul">My Orders</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="confirmation.html" class="sf-with-ul">Confirmation Page</a></li>
+                                                <li><a href="password-recovery.html" class="sf-with-ul">Password Recovery</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -228,7 +287,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a id="current" href="#">
+                                            <a href="#">
                                             Contact
                                             <span class="sf-sub-indicator">
                                             <i class="fa fa-angle-down"></i>
@@ -261,7 +320,8 @@
                                             <div class="breadcrumbs pull-right">
                                                 <ul>
                                                     <li>You are Now on:</li>
-                                                    <li><a href="index-2.html">Shop</a></li>
+                                                    <li><a href="index.html">Home</a></li>
+                                                    <li><a href="shop.html">Shop</a></li>
                                                     <li>Checkout</li>
                                                 </ul>
                                             </div>
@@ -272,312 +332,266 @@
                         </div>
                         <!-- Main Content start-->
                         <div class="content margin-top60 margin-bottom60">
-			  
-				  <div class="container">
-					<div class="row">
-					  <article class="content col-sm-9 col-md-9">
-						<ul id="checkoutsteps" class="clearfix panel-group">
-						  <li class="panel">
-							<a href="#step-1" class="step-title" data-parent="#checkoutsteps" data-toggle="collapse">
-							  <div class="number">1</div>
-							  <h6>Checkout Method</h6>
-							</a>
-							
-							<div id="step-1" class="collapse in">
-							  <div class="step-content">
-								<div class="row">
-								  <div class="col-sm-6 col-md-6 bottom-padding-mobile">
-									<h3 class="title">Checkout as a Guest or Register</h3>
-									<p>Register with us for future convenience:</p>
-									<div class="register-radio">
-									  <label class="radio"><input type="radio" name="register"> Checkout as Guest</label>
-									  <label class="radio"><input type="radio" name="register"> Register</label>
-									</div>
-									<p>Register and save time!<br> Register with us for future convenience:</p>
-								
-									<div class="buttons-box clearfix">
-									  <button type="button" class="btn btn-color ">Continue</button>
-									</div>
-								  </div>
-								  
-								  <div class="col-sm-6 col-md-6">
-									<h3 class="title">Login</h3>
-									<p>If you have an account with us, please log in.</p>
-									<form class="checkout-login">
-									  
-									  <input class="form-control" placeholder="Email Adress" type="email">	
-
-									  <input class="last form-control" placeholder="Password" type="password">
-								
-									  <label class="checkbox">
-										<input type="checkbox"> Remember password
-									  </label>
-									</form><!-- .checkout-login -->
-									<div class="clearfix"></div>
-									<div class="buttons-box clearfix">
-									  <button type="button" class="btn btn-color">Login</button>
-									  <a href="#" class="forgot">Forgot Your Password?</a>
-									  <span class="required"><b>*</b> All Fields Required</span>
-									</div><!-- .buttons-box -->
-								  </div>
-								</div>
-							  </div>
-							</div>
-						  </li>
-						  
-						  <li class="panel">
-							<a href="#step-2" class="collapsed step-title" data-parent="#checkoutsteps" data-toggle="collapse">
-							  <div class="number">2</div>
-							  <h6>Billing Information</h6>
-							</a>
-							
-							<div id="step-2" class="collapse">
-							  <div class="step-content">
-								<form class="row no-margin">
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="First Name" type="text">
-								  </div>
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="Last Name" type="text">
-								  </div>
-								  
-								  <div class="clearfix"></div>
-								  
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="Company" type="text">
-								  </div>
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="Email Address" type="text">
-								  </div>
-								  
-								  <div class="clearfix"></div>
-								  
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="Address" type="text">
-								  </div>
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="City" type="text">
-								  </div>
-								  
-								  <div class="clearfix"></div>
-								  
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="Telephone" type="text">
-								  </div>
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="Fax" type="text">
-								  </div>
-								  
-								  <div class="clearfix"></div>
-								  
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="Password" type="text">
-								  </div>
-								  <div class="col-sm-6 col-md-6">
-								
-									<input class="form-control" placeholder="Confirm Password" type="text">
-								  </div>
-								  
-								  <div class="clearfix"></div>
-								  
-								  <div class="col-sm-12 buttons-box text-right">
-									<button type="button" class="btn btn-color">Continue</button>
-									<span class="required"><b>*</b> All Fields Required</span>
-								  </div>
-								</form>
-							  </div>
-							</div>
-						  </li>
-						  
-						  <li class="panel">
-							<a href="#step-3" class="collapsed step-title" data-parent="#checkoutsteps" data-toggle="collapse">
-							  <div class="number">3</div>
-							  <h6>Shipping Information</h6>
-							</a>
-							
-							<div id="step-3" class="collapse">
-							  <div class="step-content">
-								<form class="row no-margin">
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="First Name" type="text">
-								  </div>
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="Last Name" type="text">
-								  </div>
-								  
-								  <div class="clearfix"></div>
-								  
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="Company" type="text">
-								  </div>
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="Telephone" type="text">
-								  </div>
-								  
-								  <div class="clearfix"></div>
-								  
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="Address" type="text">
-								  </div>
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="City" type="text">
-								  </div>
-								  
-								  <div class="clearfix"></div>
-								  
-								  <div class="col-sm-6 col-md-6">
-									
-									<input class="form-control" placeholder="Zip/Postal code" type="text">
-								  </div>
-								  <div class="col-sm-6 col-md-6">
-									
-									<select class="form-control">
-									  <option>USA</option>
-									  <option>Bangladesh</option>
-									  <option>UK</option>
-									  <option>Canada</option>
-									  <option>China</option>
-									  <option>Japan</option>
-									  <option>France</option>
-									</select>
-								  </div>
-
-								  <div class="clearfix"></div>
-								  
-								  <div class="col-sm-12 buttons-box text-right">
-									<button type="button" class="btn btn-color">Continue</button>
-									<span class="required"><b>*</b> Required Field</span>
-								  </div>
-								</form>
-							  </div>
-							</div>
-						  </li>
-						  
-						  <li class="panel">
-							<a href="#step-4" class="collapsed step-title" data-parent="#checkoutsteps" data-toggle="collapse">
-							  <div class="number">4</div>
-							  <h6>Shipping Method</h6>
-							</a>
-							
-							<div id="step-4" class="collapse">
-							  <div class="step-content">
-								<form class="no-margin">
-								  <h5>Flat Rate</h5>
-								  <p>Fixed <strong>$5.00</strong></p>
-								  <button type="button" class="btn btn-color">Continue</button>
-								</form>
-							  </div>
-							</div>
-						  </li>
-						  
-						  <li class="panel">
-							<a href="#step-5" class="collapsed step-title" data-parent="#checkoutsteps" data-toggle="collapse">
-							  <div class="number">5</div>
-							  <h6>Payment Information</h6>
-							</a>
-							
-							<div id="step-5" class="collapse">
-							  <div class="step-content">
-								<form>
-								  <div>
-									<label class="radio"><input type="radio" name="register"> Checkout as Guest</label>
-									<label class="radio"><input type="radio" name="register"> Register</label>
-								  </div>
-								</form>
-								
-								<div class="buttons-box text-right">
-								  <button type="button" class="btn btn-color">Continue</button>
-								  <span class="required"><b>*</b> Required Field</span>
-								</div>
-							  </div>
-							</div>
-						  </li>
-						  
-						  <li class="panel">
-							<a href="#step-6" class="collapsed step-title" data-parent="#checkoutsteps" data-toggle="collapse">
-							  <div class="number">6</div>
-							  <h6>Order Review</h6>
-							</a>
-							
-							<div id="step-6" class="collapse">
-							  <div class="step-content">
-								<div class="table-responsive">
-								  <table class="table table-bordered table-striped">
-									<thead>
-									  <tr>
-										<th>Product Name</th>
-										<th>Price</th>
-										<th>Qty</th>
-										<th>Subtotal</th>
-									  </tr>
-									</thead>
-									<tbody>
-									  <tr>
-										<td>Asus Laptop</td>
-										<td>$500</td>
-										<td>1</td>
-										<td>$500.00</td>
-									  </tr>
-									  <tr>
-										<td>Walton Tv</td>
-										<td>$500.00</td>
-										<td>1</td>
-										<td>$500.00</td>
-									  </tr>
-									  <tr>
-										<td colspan="3">Subtotal</td>
-										<td>$1000.00</td>
-									  </tr>
-									  <tr>
-										<td colspan="3">Shipping & Handling (Flat Rate - Fixed)</td>
-										<td>$5.00</td>
-									  </tr>
-									  <tr>
-										<td colspan="3">Grand Total</td>
-										<td>$1005.00</td>
-									  </tr>
-									</tbody>
-								  </table>
-								</div>
-								
-								<button type="button" class="btn btn-color">Place Order</button>
-							  </div>
-							</div>
-						  </li>
-						</ul><!-- #checkoutsteps -->
-					  </article><!-- .content -->
-
-					  <div id="sidebar" class="col-sm-3 col-md-3 sidebar checkout-progress">
-						<aside class="widget">
-						  <header>
-							<h3 class="title">Your Checkout Progress</h3>
-						  </header>
-						  <ul class="progress-list">
-							<li class="active"><a href="#" class="edit"><i class="fa fa-pencil"></i> Edit</a>Checkout Method</li>
-							<li><a href="#" class="edit"><i class="fa fa-pencil"></i> Edit</a>Billing Address</li>
-							<li><a href="#" class="edit"><i class="fa fa-pencil"></i> Edit</a>Shipping Address</li>
-							<li><a href="#" class="edit"><i class="fa fa-pencil"></i> Edit</a>Shipping Method</li>
-							<li><a href="#" class="edit"><i class="fa fa-pencil"></i> Edit</a>Payment Method</li>
-						  </ul>
-						</aside>
-					  </div><!-- .sidebar -->
-					</div>
-				  </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="content col-sm-9 col-md-9">
+                                        <ul id="checkoutsteps" class="clearfix panel-group">
+                                            <li class="panel">
+                                                <a href="#step-1" class="step-title" data-parent="#checkoutsteps" data-toggle="collapse">
+                                                    <div class="number">1</div>
+                                                    <h6>Checkout Method</h6>
+                                                </a>
+                                                <div id="step-1" class="collapse in">
+                                                    <div class="step-content">
+                                                        <div class="row">
+                                                            <div class="col-sm-6 col-md-6 bottom-padding-mobile">
+                                                                <h3 class="title">Checkout as a Guest or Register</h3>
+                                                                <p>Register with us for future convenience:</p>
+                                                                <div class="register-radio">
+                                                                    <label class="radio"><input type="radio" name="register"> Checkout as Guest</label>
+                                                                    <label class="radio"><input type="radio" name="register"> Register</label>
+                                                                </div>
+                                                                <p>Register and save time!<br> Register with us for future convenience:</p>
+                                                                <div class="buttons-box clearfix">
+                                                                    <button type="button" class="btn btn-color ">Continue</button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <h3 class="title">Login</h3>
+                                                                <p>If you have an account with us, please log in.</p>
+                                                                <form class="checkout-login">
+                                                                    <input class="form-control" placeholder="Email Adress" type="email">    
+                                                                    <input class="last form-control" placeholder="Password" type="password">
+                                                                    <label class="checkbox">
+                                                                    <input type="checkbox"> Remember password
+                                                                    </label>
+                                                                </form>
+                                                                <!-- .checkout-login -->
+                                                                <div class="clearfix"></div>
+                                                                <div class="buttons-box clearfix">
+                                                                    <button type="button" class="btn btn-color">Login</button>
+                                                                    <a href="#" class="forgot">Forgot Your Password?</a>
+                                                                    <span class="required"><b>*</b> All Fields Required</span>
+                                                                </div>
+                                                                <!-- .buttons-box -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="panel">
+                                                <a href="#step-2" class="collapsed step-title" data-parent="#checkoutsteps" data-toggle="collapse">
+                                                    <div class="number">2</div>
+                                                    <h6>Billing Information</h6>
+                                                </a>
+                                                <div id="step-2" class="collapse">
+                                                    <div class="step-content">
+                                                        <form class="row no-margin">
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="First Name" type="text">
+                                                            </div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="Last Name" type="text">
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="Company" type="text">
+                                                            </div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="Email Address" type="text">
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="Address" type="text">
+                                                            </div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="City" type="text">
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="Telephone" type="text">
+                                                            </div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="Fax" type="text">
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="Password" type="text">
+                                                            </div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="Confirm Password" type="text">
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                            <div class="col-sm-12 buttons-box text-right">
+                                                                <button type="button" class="btn btn-color">Continue</button>
+                                                                <span class="required"><b>*</b> All Fields Required</span>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="panel">
+                                                <a href="#step-3" class="collapsed step-title" data-parent="#checkoutsteps" data-toggle="collapse">
+                                                    <div class="number">3</div>
+                                                    <h6>Shipping Information</h6>
+                                                </a>
+                                                <div id="step-3" class="collapse">
+                                                    <div class="step-content">
+                                                        <form class="row no-margin">
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="First Name" type="text">
+                                                            </div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="Last Name" type="text">
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="Company" type="text">
+                                                            </div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="Telephone" type="text">
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="Address" type="text">
+                                                            </div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="City" type="text">
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <input class="form-control" placeholder="Zip/Postal code" type="text">
+                                                            </div>
+                                                            <div class="col-sm-6 col-md-6">
+                                                                <select class="form-control">
+                                                                    <option>USA</option>
+                                                                    <option>Bangladesh</option>
+                                                                    <option>UK</option>
+                                                                    <option>Canada</option>
+                                                                    <option>China</option>
+                                                                    <option>Japan</option>
+                                                                    <option>France</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="clearfix"></div>
+                                                            <div class="col-sm-12 buttons-box text-right">
+                                                                <button type="button" class="btn btn-color">Continue</button>
+                                                                <span class="required"><b>*</b> Required Field</span>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="panel">
+                                                <a href="#step-4" class="collapsed step-title" data-parent="#checkoutsteps" data-toggle="collapse">
+                                                    <div class="number">4</div>
+                                                    <h6>Shipping Method</h6>
+                                                </a>
+                                                <div id="step-4" class="collapse">
+                                                    <div class="step-content">
+                                                        <form class="no-margin">
+                                                            <h5>Flat Rate</h5>
+                                                            <div class="radio">
+                                                                <label>
+                                                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                                                Fixed <strong>$5.00</strong>
+                                                                </label>
+                                                            </div>
+                                                            <button type="button" class="btn btn-color">Continue</button>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="panel">
+                                                <a href="#step-5" class="collapsed step-title" data-parent="#checkoutsteps" data-toggle="collapse">
+                                                    <div class="number">5</div>
+                                                    <h6>Payment Information</h6>
+                                                </a>
+                                                <div id="step-5" class="collapse">
+                                                    <div class="step-content">
+                                                        <form>
+                                                            <div>
+                                                                <label class="radio"><input type="radio" name="register"> Checkout as Guest</label>
+                                                                <label class="radio"><input type="radio" name="register"> Register</label>
+                                                            </div>
+                                                        </form>
+                                                        <div class="buttons-box text-right">
+                                                            <button type="button" class="btn btn-color">Continue</button>
+                                                            <span class="required"><b>*</b> Required Field</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="panel">
+                                                <a href="#step-6" class="collapsed step-title" data-parent="#checkoutsteps" data-toggle="collapse">
+                                                    <div class="number">6</div>
+                                                    <h6>Order Review</h6>
+                                                </a>
+                                                <div id="step-6" class="collapse">
+                                                    <div class="step-content">
+                                                        <div class="table-responsive">
+                                                            <table class="table table-bordered table-striped">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Product Name</th>
+                                                                        <th>Price</th>
+                                                                        <th>Qty</th>
+                                                                        <th>Subtotal</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Asus Laptop</td>
+                                                                        <td>$500</td>
+                                                                        <td>1</td>
+                                                                        <td>$500.00</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Walton Tv</td>
+                                                                        <td>$500.00</td>
+                                                                        <td>1</td>
+                                                                        <td>$500.00</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colspan="3">Subtotal</td>
+                                                                        <td>$1000.00</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colspan="3">Shipping & Handling (Flat Rate - Fixed)</td>
+                                                                        <td>$5.00</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colspan="3">Grand Total</td>
+                                                                        <td>$1005.00</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <button type="button" class="btn btn-color">Place Order</button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <!-- #checkoutsteps -->
+                                    </div>
+                                    <!-- .content -->
+                                    <div id="sidebar" class="col-sm-3 col-md-3 sidebar checkout-progress">
+                                        <aside class="widget">
+                                            <header>
+                                                <h3 class="title">Your Checkout Progress</h3>
+                                            </header>
+                                            <ul class="progress-list">
+                                                <li class="active"><a href="#" class="edit"><i class="fa fa-pencil"></i> Edit</a>Checkout Method</li>
+                                                <li><a href="#" class="edit"><i class="fa fa-pencil"></i> Edit</a>Billing Address</li>
+                                                <li><a href="#" class="edit"><i class="fa fa-pencil"></i> Edit</a>Shipping Address</li>
+                                                <li><a href="#" class="edit"><i class="fa fa-pencil"></i> Edit</a>Shipping Method</li>
+                                                <li><a href="#" class="edit"><i class="fa fa-pencil"></i> Edit</a>Payment Method</li>
+                                            </ul>
+                                        </aside>
+                                    </div>
+                                    <!-- .sidebar -->
+                                </div>
+                            </div>
                         </div>
                         <!-- Main Content end-->
                     </section>
@@ -659,8 +673,90 @@
                                 </div>
                             </div>
                             <!-- Footer Bottom End --> 
+                            <!-- /Footer Bottom --> 
                         </div>
                     </footer>
+                    <!-- Modal -->
+                    <section id="modals">
+                        <!-- Login Modal -->
+                        <div class="modal login fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2 class="form-signin-heading modal-title" id="myModalLabel">Login</h2>
+                                    </div>
+                                    <form method="post" id="login">
+                                        <div class="modal-body">
+                                            <fieldset>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <input class="form-control" id="username" name="username" type="text" placeholder="Username" value="" required>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <input class="form-control" type="email" id="email" name="email" placeholder="Email" value="" required>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="password-recovery.html" class="pull-left">(Lost Password?)</a>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-color">Login</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Logan Modal -->
+                        <!-- Registration Modal -->
+                        <div class="modal register fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2 class="form-signin-heading modal-title" id="myModalLabel">Create a new account</h2>
+                                    </div>
+                                    <form method="post" id="login">
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="form-group">
+                                                    <div class="col-md-6">
+                                                        <input type="text" value="" class="form-control" placeholder="First Name">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="text" value="" class="form-control" placeholder="Last Name">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <input type="text" value="" class="form-control" placeholder="E-mail Address">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group">
+                                                    <div class="col-md-6">
+                                                        <input type="password" value="" class="form-control" placeholder="Password">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="password" value="" class="form-control" placeholder="Re-enter Password">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-color">Register</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Registration Modal -->
+                    </section>
                     <!-- Scroll To Top --> 
                     <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>
                 </div>

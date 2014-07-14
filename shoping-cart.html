@@ -79,9 +79,36 @@
                                         </ul>
                                     </div>
                                     <div class="phone-login pull-right">
-                                        <a><i class="fa fa-phone"></i> Call Us : +880 111-111-111</a>
+                                        <!-- Currency Selector -->
+                                        <div class="btn-group currency btn-select">
+                                            <a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle">
+                                            <span class="hidden-xs"><img src="img/shop/currency.png" alt=""></span><span class="visible-xs"><img src="img/shop/currency.png" alt=""></span>
+                                            <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#"><img alt="" src="img/shop/flags/USA.png"> USD</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/France.png"> EURO</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/Bangladesh.png"> BDT</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Currency Selector -->
+                                        <!-- Language Selector -->
+                                        <div class="btn-group language btn-select">
+                                            <a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle">
+                                            <span class="hidden-xs"><img src="img/shop/flags/USA.png" alt=""></span><span class="visible-xs"><img src="img/shop/flags/USA.png" alt=""></span>
+                                            <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#"><img alt="" src="img/shop/flags/USA.png"> English</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/France.png"> France</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/Germany.png"> Germany</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Language Selector -->
+                                        <a href="my-account.html"><i class="fa fa-user"></i> My Account</a>
+                                        <a href="#"><i class="fa fa-list-alt"></i> My Wishlist</a>
+                                        <a href="checkout.html"><i class="fa fa-shopping-cart"></i> Checkout</a>
                                         <a href="#" data-toggle="modal" data-target="#loginModal"><i class="fa fa-sign-in"></i> Login</a>
-                                        <a href="#" data-toggle="modal" data-target="#registrationModal"><i class="fa fa-edit"></i> Registration</a>
                                     </div>
                                 </div>
                             </div>
@@ -126,6 +153,7 @@
                                             <ul>
                                                 <li><a href="index.html" class="sf-with-ul">Home </a></li>
                                                 <li><a href="index-2.html" class="sf-with-ul">Home 2</a></li>
+<li><a href="index-shop.html" class="sf-with-ul">Home Shop</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -137,6 +165,7 @@
                                             </a>
                                             <ul>
                                                 <li><a href="shortcodes.html" class="sf-with-ul">Shortcodes</a></li>
+                                                <li><a href="components.html" class="sf-with-ul">Components</a></li>
                                                 <li><a href="icons.html" class="sf-with-ul">Icons</a></li>
                                                 <li><a href="columns.html" class="sf-with-ul">Columns</a></li>
                                                 <li><a href="pricing-table.html" class="sf-with-ul">Pricing Tables</a></li>
@@ -153,6 +182,36 @@
                                                         <li><a href="#" class="sf-with-ul">Menu Item</a></li>
                                                     </ul>
                                                 </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a id="current" href="#" class="sf-with-ul">
+                                            Shop 
+                                            <span class="sf-sub-indicator">
+                                            <i class="fa fa-angle-down "></i>
+                                            </span>
+                                            </a>
+                                            <ul>
+                                                <li><a href="shop.html" class="sf-with-ul">Products</a></li>
+                                                <li><a href="product-view.html" class="sf-with-ul">Product View</a></li>
+                                                <li><a href="shoping-cart.html" class="sf-with-ul">Shoping Cart</a></li>
+                                                <li><a href="checkout.html" class="sf-with-ul">Proceed to Checkout</a></li>
+                                                <li>
+                                                    <a href="#" class="sf-with-ul"> 
+                                                    My Account
+                                                    <span class="sf-sub-indicator pull-right">
+                                                    <i class="fa fa-angle-right "></i>
+                                                    </span>
+                                                    </a>
+                                                    <ul>
+                                                        <li><a href="my-account.html" class="sf-with-ul">My Account</a></li>
+                                                        <li><a href="my-account-information.html" class="sf-with-ul">My Account Information</a></li>
+                                                        <li><a href="my-address.html" class="sf-with-ul">My Address</a></li>
+                                                        <li><a href="my-orders.html" class="sf-with-ul">My Orders</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="confirmation.html" class="sf-with-ul">Confirmation Page</a></li>
+                                                <li><a href="password-recovery.html" class="sf-with-ul">Password Recovery</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -228,7 +287,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <a id="current" href="#">
+                                            <a href="#">
                                             Contact
                                             <span class="sf-sub-indicator">
                                             <i class="fa fa-angle-down"></i>
@@ -255,14 +314,15 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
-                                            <h2 class="title">Contact Us</h2>
+                                            <h2 class="title">Shopping Cart</h2>
                                         </div>
                                         <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6">
                                             <div class="breadcrumbs pull-right">
                                                 <ul>
                                                     <li>You are Now on:</li>
-                                                    <li><a href="index-2.html">Home</a></li>
-                                                    <li>Contact Us</li>
+                                                    <li><a href="index.html">Home</a></li>
+                                                    <li><a href="shop.html">Shop</a></li>
+                                                    <li>Shopping Cart</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -272,146 +332,138 @@
                         </div>
                         <!-- Main Content start-->
                         <div class="content margin-top60 margin-bottom60">
-						<header class="page-header">
-							<div class="container">
-							<h2>Shopping Cart</h2>
-							</div>
-						</header>
-						<div class="container">
-							<div class="row">
-							  <article class="content col-sm-12 col-md-12">
-								<div class="table-box">
-								  <table class="shopping-cart-table responsive-table table table-bordered table-striped" id="shopping-cart-table">
-									<thead>
-									  <tr>
-										<th></th>
-										<th class="td-name">Product Name</th>
-										<th></th>
-										<th class="td-price">Unit Price</th>
-										<th class="td-qty">Qty</th>
-										<th class="td-total">Subtotal</th>
-										<th class="td-remove"></th>
-									  </tr>
-									</thead>
-									<tbody>
-									  <tr>
-										<td class="td-images">
-										  <a class="product-image" href="shop-product-view.html">
-											<img width="70" height="70" title="" alt="" src="img/content/product-1.jpg">
-										  </a>
-										</td>
-										<td class="td-name">
-										  
-											<a href="product-view.html">Asus Laptop</a>
-										 
-										</td>
-										<td class="td-edit">
-										  <a class="edit" href="#"><i class="fa fa-pencil"></i> Edit</a>
-										</td>
-										<td class="td-price">
-										  <div class="price">$500.00</div>
-										</td>
-										<td class="td-qty">
-										  <input type="text" value="1" size="1" width="1" height="1" class="form-control">
-										</td>
-										<td class="td-total">
-										  <div class="price">$500.00</div>
-										</td>
-										<td class="td-remove">
-										  
-                                            <i class="fa fa-trash-o"></i>
-										  
-										</td>
-									  </tr>
-									  <tr>
-										<td class="td-images">
-										  <a class="product-image" href="shop-product-view.html">
-											<img width="70" height="70" title="" alt="" src="img/content/product-2.jpg">
-										  </a>
-										</td>
-										<td class="td-name">
-										  
-											<a href="product-view.html">Walton Tv</a>
-										  
-										</td>
-										<td class="td-edit">
-										  <a class="edit" href="#"><i class="fa fa-pencil"></i> Edit</a>
-										</td>
-										<td class="td-price">
-										  <div class="price">$500.00</div>
-										</td>
-										<td class="td-qty">
-										  <input type="text" value="1" size="1" width="1" height="1" class="form-control">
-										</td>
-										<td class="td-total">
-										  <div class="price">$500.00</div>
-										</td>
-										<td class="td-remove">
-										  
-                                              <i class="fa fa-trash-o"></i>
-										  
-										</td>
-									  </tr>
-									</tbody>
-								  </table><!-- .shopping-cart-table -->
-								</div>
-								<table class="shopping-cart-table shopping-cart-table-button table">
-								  <tbody>
-									<tr>
-									  <td class="action no-border">
-										<a href="#"><i class="fa fa-angle-left"></i> Continue Shopping</a>
-										<a class="update pull-right" href="#"><i class="fa fa-rotate-right"></i> Update Shopping Cart</a>
-									  </td>
-									</tr>
-								  </tbody>
-								</table>
-							   </div>
-								<div class="row" id="car-bottom">
-								  <div class="col-sm-4 col-md-4">
-									<div class="car-bottom-box bg">
-									  <h5>Estimate Shipping and Tax</h5>
-									  <p>Enter your destination to get a shipping estimate.</p>
-									  <label>Country: <span class="required">*</span></label>
-									  <input type="text" class="form-control">
-									  <label>State/Province: <span class="required">*</span></label>
-									  <input type="text" class="form-control">
-									  <label>Zip/Postal Code: <span class="required">*</span></label>
-									  <input type="text" class="form-control">
-									  <button class="btn btn-color">Get a Quote</button>
-									</div>
-								  </div>
-								  <div class="col-sm-4 col-md-4">
-									<div class="car-bottom-box bg">
-									  <h5>Discount Codes</h5>
-									  <p>Enter your coupon code if you have one.</p>
-									  <input type="text" placeholder="Please select region, state or province" class="form-control">
-									  <button class="btn btn-color">Apply Coupon</button>
-									</div>
-								  </div>
-								  <div class="col-sm-4 col-md-4">
-									<div class="car-bottom-box bg total">
-									  <table>
-										<tbody>
-										  <tr>
-											<td><h3>Sub Total : </h3></td>
-											<td><h3> $1, 000.00</h3></td>
-										  </tr>
-										  <tr>
-											<td><h3>Grand Total :  </h3></td>
-											<td><h3>  $1, 000.00</h3></td>
-										  </tr>
-										</tbody>
-									  </table>
-									  <div>
-										<a class="btn  btn-color" href="checkout.html">Proceed to Checkout</a>
-									  </div>
-									  <a class="multiple no-border" href="#">Checkout with Multiple Addresses</a>
-									</div>
-								  </div>
-								</div>
-								
-							</div>
-						  </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12">
+                                        <div class="table-box">
+                                            <table class="shopping-cart-table responsive-table table table-bordered table-striped" id="shopping-cart-table">
+                                                <thead>
+                                                    <tr>
+                                                        <th></th>
+                                                        <th class="td-name">Product Name</th>
+                                                        <th></th>
+                                                        <th class="td-price">Unit Price</th>
+                                                        <th class="td-qty">Qty</th>
+                                                        <th class="td-total">Subtotal</th>
+                                                        <th class="td-remove"></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="td-images">
+                                                            <a class="product-image" href="shop-product-view.html">
+                                                            <img width="70" height="70" title="" alt="" src="img/content/product-1.jpg">
+                                                            </a>
+                                                        </td>
+                                                        <td class="td-name">
+                                                            <a href="product-view.html">Asus Laptop</a>
+                                                        </td>
+                                                        <td class="td-edit">
+                                                            <a class="edit" href="#"><i class="fa fa-pencil"></i> Edit</a>
+                                                        </td>
+                                                        <td class="td-price">
+                                                            <div class="price">$500.00</div>
+                                                        </td>
+                                                        <td class="td-qty">
+                                                            <input type="text" value="1" size="1" width="1" height="1" class="form-control">
+                                                        </td>
+                                                        <td class="td-total">
+                                                            <div class="price">$500.00</div>
+                                                        </td>
+                                                        <td class="td-remove">
+                                                            <i class="fa fa-trash-o"></i>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="td-images">
+                                                            <a class="product-image" href="shop-product-view.html">
+                                                            <img width="70" height="70" title="" alt="" src="img/content/product-2.jpg">
+                                                            </a>
+                                                        </td>
+                                                        <td class="td-name">
+                                                            <a href="product-view.html">Walton Tv</a>
+                                                        </td>
+                                                        <td class="td-edit">
+                                                            <a class="edit" href="#"><i class="fa fa-pencil"></i> Edit</a>
+                                                        </td>
+                                                        <td class="td-price">
+                                                            <div class="price">$500.00</div>
+                                                        </td>
+                                                        <td class="td-qty">
+                                                            <input type="text" value="1" size="1" width="1" height="1" class="form-control">
+                                                        </td>
+                                                        <td class="td-total">
+                                                            <div class="price">$500.00</div>
+                                                        </td>
+                                                        <td class="td-remove">
+                                                            <i class="fa fa-trash-o"></i>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <!-- .shopping-cart-table -->
+                                        </div>
+                                        <table class="shopping-cart-table shopping-cart-table-button table">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="action no-border">
+                                                        <a href="#" class="btn btn-default"><i class="fa fa-angle-left"></i> Continue Shopping</a>
+                                                        <a class="update btn btn-color pull-right" href="#"><i class="fa fa-rotate-right"></i> Update Shopping Cart</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="row" id="car-bottom">
+                                    <div class="col-sm-4 col-md-4">
+                                        <div class="car-bottom-box bg">
+                                            <h5>Estimate Shipping and Tax</h5>
+                                            <p>Enter your destination to get a shipping estimate. <br>*All fields required.</p>
+                                            <input type="text" class="form-control" placeholder="Country">
+                                            <input type="text" class="form-control" placeholder="State/Province">
+                                            <input type="text" class="form-control" placeholder="Zip/Postal Codes">
+                                            <button class="btn btn-color">Get a Quote</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                        <div class="car-bottom-box bg">
+                                            <h5>Discount Codes</h5>
+                                            <p>Enter your coupon code if you have one.</p>
+                                            <input type="text" placeholder="Please select region, state or province" class="form-control">
+                                            <button class="btn btn-color">Apply Coupon</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 col-md-4">
+                                        <div class="car-bottom-box bg total">
+                                            <table>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <h3>Sub Total : </h3>
+                                                        </td>
+                                                        <td>
+                                                            <h3> $1, 000.00</h3>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <h3>Grand Total :  </h3>
+                                                        </td>
+                                                        <td>
+                                                            <h3>  $1, 000.00</h3>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <div>
+                                                <a class="btn  btn-color" href="checkout.html">Proceed to Checkout</a><br>
+                                                <a class="multiple no-border" href="#">Checkout with Multiple Addresses</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <!-- Main Content end-->
                     </section>
@@ -493,8 +545,90 @@
                                 </div>
                             </div>
                             <!-- Footer Bottom End --> 
+                            <!-- /Footer Bottom --> 
                         </div>
                     </footer>
+                    <!-- Modal -->
+                    <section id="modals">
+                        <!-- Login Modal -->
+                        <div class="modal login fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2 class="form-signin-heading modal-title" id="myModalLabel">Login</h2>
+                                    </div>
+                                    <form method="post" id="login">
+                                        <div class="modal-body">
+                                            <fieldset>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <input class="form-control" id="username" name="username" type="text" placeholder="Username" value="" required>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <input class="form-control" type="email" id="email" name="email" placeholder="Email" value="" required>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="password-recovery.html" class="pull-left">(Lost Password?)</a>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-color">Login</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Logan Modal -->
+                        <!-- Registration Modal -->
+                        <div class="modal register fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2 class="form-signin-heading modal-title" id="myModalLabel">Create a new account</h2>
+                                    </div>
+                                    <form method="post" id="login">
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="form-group">
+                                                    <div class="col-md-6">
+                                                        <input type="text" value="" class="form-control" placeholder="First Name">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="text" value="" class="form-control" placeholder="Last Name">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <input type="text" value="" class="form-control" placeholder="E-mail Address">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group">
+                                                    <div class="col-md-6">
+                                                        <input type="password" value="" class="form-control" placeholder="Password">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="password" value="" class="form-control" placeholder="Re-enter Password">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-color">Register</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Registration Modal -->
+                    </section>
                     <!-- Scroll To Top --> 
                     <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>
                 </div>

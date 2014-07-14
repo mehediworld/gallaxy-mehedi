@@ -80,9 +80,36 @@
                                         </ul>
                                     </div>
                                     <div class="phone-login pull-right">
-                                        <a><i class="fa fa-phone"></i> Call Us : +880 111-111-111</a>
+                                        <!-- Currency Selector -->
+                                        <div class="btn-group currency btn-select">
+                                            <a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle">
+                                            <span class="hidden-xs"><img src="img/shop/currency.png" alt=""></span><span class="visible-xs"><img src="img/shop/currency.png" alt=""></span>
+                                            <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#"><img alt="" src="img/shop/flags/USA.png"> USD</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/France.png"> EURO</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/Bangladesh.png"> BDT</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Currency Selector -->
+                                        <!-- Language Selector -->
+                                        <div class="btn-group language btn-select">
+                                            <a href="#" data-toggle="dropdown" role="button" class="dropdown-toggle">
+                                            <span class="hidden-xs"><img src="img/shop/flags/USA.png" alt=""></span><span class="visible-xs"><img src="img/shop/flags/USA.png" alt=""></span>
+                                            <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#"><img alt="" src="img/shop/flags/USA.png"> English</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/France.png"> France</a></li>
+                                                <li><a href="#"><img alt="" src="img/shop/flags/Germany.png"> Germany</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- /Language Selector -->
+                                        <a href="my-account.html"><i class="fa fa-user"></i> My Account</a>
+                                        <a href="#"><i class="fa fa-list-alt"></i> My Wishlist</a>
+                                        <a href="checkout.html"><i class="fa fa-shopping-cart"></i> Checkout</a>
                                         <a href="#" data-toggle="modal" data-target="#loginModal"><i class="fa fa-sign-in"></i> Login</a>
-                                        <a href="#" data-toggle="modal" data-target="#registrationModal"><i class="fa fa-edit"></i> Registration</a>
                                     </div>
                                 </div>
                             </div>
@@ -127,6 +154,7 @@
                                             <ul>
                                                 <li><a href="index.html" class="sf-with-ul">Home </a></li>
                                                 <li><a href="index-2.html" class="sf-with-ul">Home 2</a></li>
+<li><a href="index-shop.html" class="sf-with-ul">Home Shop</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -138,6 +166,7 @@
                                             </a>
                                             <ul>
                                                 <li><a href="shortcodes.html" class="sf-with-ul">Shortcodes</a></li>
+                                                <li><a href="components.html" class="sf-with-ul">Components</a></li>
                                                 <li><a href="icons.html" class="sf-with-ul">Icons</a></li>
                                                 <li><a href="columns.html" class="sf-with-ul">Columns</a></li>
                                                 <li><a href="pricing-table.html" class="sf-with-ul">Pricing Tables</a></li>
@@ -158,6 +187,36 @@
                                         </li>
                                         <li>
                                             <a id="current" href="#" class="sf-with-ul">
+                                            Shop 
+                                            <span class="sf-sub-indicator">
+                                            <i class="fa fa-angle-down "></i>
+                                            </span>
+                                            </a>
+                                            <ul>
+                                                <li><a href="shop.html" class="sf-with-ul">Products</a></li>
+                                                <li><a href="product-view.html" class="sf-with-ul">Product View</a></li>
+                                                <li><a href="shoping-cart.html" class="sf-with-ul">Shoping Cart</a></li>
+                                                <li><a href="checkout.html" class="sf-with-ul">Proceed to Checkout</a></li>
+                                                <li>
+                                                    <a href="#" class="sf-with-ul"> 
+                                                    My Account
+                                                    <span class="sf-sub-indicator pull-right">
+                                                    <i class="fa fa-angle-right "></i>
+                                                    </span>
+                                                    </a>
+                                                    <ul>
+                                                        <li><a href="my-account.html" class="sf-with-ul">My Account</a></li>
+                                                        <li><a href="my-account-information.html" class="sf-with-ul">My Account Information</a></li>
+                                                        <li><a href="my-address.html" class="sf-with-ul">My Address</a></li>
+                                                        <li><a href="my-orders.html" class="sf-with-ul">My Orders</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="confirmation.html" class="sf-with-ul">Confirmation Page</a></li>
+                                                <li><a href="password-recovery.html" class="sf-with-ul">Password Recovery</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sf-with-ul">
                                             Pages
                                             <span class="sf-sub-indicator">
                                             <i class="fa fa-angle-down "></i>
@@ -273,241 +332,154 @@
                             </div>
                         </div>
                         <!-- Main Content start-->
-                        <div class="product-carousel margin-top60">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <div class="list_carousel">
-                                            <div class="product-caroufredsel_thumb">
-                                                <div class="banner-item">
-                                                    <a href="product-view.html">
-                                                        <img src="img/shop/thumb/banner1.jpg" alt="" height="155" width="185">
-                                                        <h2>Home Theater</h2>
-                                                    </a>
+                        <div class="content margin-top60 margin-bottom60">
+                            <div class="product-item">
+                                <div class="container margin-top60">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <h2>Voluptatibus mollitia quisquam aliquid</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                                            <div class="simpleLens-gallery-container" id="demo-simpleLens-gallery">
+                                                <div class="simpleLens-container">
+                                                    <div class="simpleLens-big-image-container">
+                                                        <a class="simpleLens-lens-image" data-lens-image="img/shop/products/large/benvado_elisa_bianco.jpg">
+                                                        <img src="img/shop/products/medium/benvado_elisa_bianco.jpg" class="simpleLens-big-image">
+                                                        </a>
+                                                    </div>
                                                 </div>
-                                                <div class="banner-item">
-                                                    <a href="product-view.html">
-                                                        <img src="img/shop/thumb/banner2.jpg" alt="" height="155" width="253">
-                                                        <h2>Multiroom</h2>
-                                                    </a>
-                                                </div>
-                                                <div class="banner-item">
-                                                    <a href="product-view.html">
-                                                        <img src="img/shop/thumb/banner3.jpg" alt="" height="155" width="253">
-                                                        <h2>Lighting Control</h2>
-                                                    </a>
-                                                </div>
-                                                <div class="banner-item">
-                                                    <a href="product-view.html">
-                                                        <img src="img/shop/thumb/banner4.jpg" alt="" height="155" width="253">
-                                                        <h2>Amazing Sound</h2>
-                                                    </a>
-                                                </div>
-                                                <div class="banner-item">
-                                                    <a href="product-view.html">
-                                                        <img src="img/shop/thumb/banner5.jpg" alt="" height="155" width="253">
-                                                        <h2>Home Theater</h2>
-                                                    </a>
-                                                </div>
-                                                <div class="banner-item">
-                                                    <a href="product-view.html">
-                                                        <img src="img/shop/thumb/banner6.jpg" alt="" height="155" width="253">
-                                                        <h2>Multiroom</h2>
-                                                    </a>
-                                                </div>
-                                                <div class="banner-item">
-                                                    <a href="product-view.html">
-                                                        <img src="img/shop/thumb/banner7.jpg" alt="" height="155" width="253">
-                                                        <h2>Lighting Control</h2>
-                                                    </a>
-                                                </div>
-                                                <div class="banner-item">
-                                                    <a href="product-view.html">
-                                                        <img src="img/shop/thumb/banner8.jpg" alt="" height="155" width="253">
-                                                        <h2>Amazing Sound</h2>
-                                                    </a>
-                                                </div>
-                                                <div class="banner-item">
-                                                    <a href="product-view.html">
-                                                        <img src="img/shop/thumb/banner5.jpg" alt="" height="155" width="253">
-                                                        <h2>Home Theater</h2>
-                                                    </a>
+                                                <div class="simpleLens-thumbnails-container">
+                                                    <div id="product-zoom-carousel" class="product-zoom-carousel slide">
+                                                        <div class="carousel-inner">
+                                                            <div class="item active">
+                                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/benvado_elisa_bianco.jpg" data-big-image="img/shop/products/medium/benvado_elisa_bianco.jpg">
+                                                                <img src="img/shop/products/thumbnail/benvado_elisa_bianco.jpg">
+                                                                </a>
+                                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/camper_21926_red.jpg" data-big-image="img/shop/products/medium/camper_21926_red.jpg">
+                                                                <img src="img/shop/products/thumbnail/camper_21926_red.jpg">
+                                                                </a>
+                                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/flylondon_most_red.jpg" data-big-image="img/shop/products/medium/flylondon_most_red.jpg">
+                                                                <img src="img/shop/products/thumbnail/flylondon_most_red.jpg">
+                                                                </a>
+                                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/benvado_elisa_bianco.jpg" data-big-image="img/shop/products/medium/benvado_elisa_bianco.jpg">
+                                                                <img src="img/shop/products/thumbnail/benvado_elisa_bianco.jpg">
+                                                                </a>                                                    
+                                                            </div>
+                                                            <div class="item">
+                                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/camper_21926_red.jpg" data-big-image="img/shop/products/medium/camper_21926_red.jpg">
+                                                                <img src="img/shop/products/thumbnail/camper_21926_red.jpg">
+                                                                </a>
+                                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/flylondon_most_red.jpg" data-big-image="img/shop/products/medium/flylondon_most_red.jpg">
+                                                                <img src="img/shop/products/thumbnail/flylondon_most_red.jpg">
+                                                                </a>
+                                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/benvado_elisa_bianco.jpg" data-big-image="img/shop/products/medium/benvado_elisa_bianco.jpg">
+                                                                <img src="img/shop/products/thumbnail/benvado_elisa_bianco.jpg">
+                                                                </a>
+                                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/camper_21926_red.jpg" data-big-image="img/shop/products/medium/camper_21926_red.jpg">
+                                                                <img src="img/shop/products/thumbnail/camper_21926_red.jpg">
+                                                                </a>                                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <a id="prev2" class="prev" href="#product-zoom-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                                                    <a id="next2" class="next" href="#product-zoom-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>                    
                                                 </div>
                                             </div>
-                                            <div class="caroufredsel-control">
-                                               <a id="prev1" class="prev" href="#"><i class="fa fa-angle-left"></i></a>
-                                               <a id="next1" class="next" href="#"><i class="fa fa-angle-right"></i></a>
-                                               <!-- <div id="pager1" class="pager"></div> -->
+                                        </div>
+                                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                                            <div class="reviews-box">
+                                                <div class="rating-box">
+                                                    <div class="rating pull-left">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="73px" height="12px" viewBox="0 0 73 12" enable-background="new 0 0 73 12" xml:space="preserve">
+                                                            <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="6.5,0 8,5 13,5 9,7.7 10,12 6.5,9.2 3,12 4,7.7 0,5 5,5"></polygon>
+                                                            <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="66.5,0 68,5 73,5 69,7.7 70,12 66.5,9.2 63,12 64,7.7 60,5 65,5 "></polygon>
+                                                            <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="21.5,0 23,5 28,5 24,7.7 25,12 21.5,9.2 18,12 19,7.7 15,5 20,5 "></polygon>
+                                                            <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="51.5,0 53,5 58,5 54,7.7 55,12 51.5,9.2 48,12 49,7.7 45,5 50,5 "></polygon>
+                                                            <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="36.5,0 38,5 43,5 39,7.7 40,12 36.5,9.2 33,12 34,7.7 30,5 35,5 "></polygon>
+                                                        </svg>
+                                                    </div>
+                                                    <div class="reviews pull-left">
+                                                        <p>5 review(s) | <a class="add-review" href="#reviews">Add your review</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-details">
+                                                <p class="short-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                <p><b>Product Code :</b> 01xxx01</p>
+                                                <p><b>Stock : </b><button type="button" class="btn btn-default btn-sm btn-color">In Stock</button></p>
+                                                <p><b>Price : <button type="button" class="btn btn-default btn-sm" disabled="disabled">$1200</button> <button type="button" class="btn btn-default btn-sm">$999</button></b></p>
+                                                <p><b>Quantity :</b> <input class="btn btn-default btn-sm" type="button" value="1"></p>
+                                                <p>
+                                                    <button type="button" class="btn btn-default btn-sm btn-color"><i class="fa fa-exchange"></i></button>
+                                                    <button type="button" class="btn btn-default btn-sm btn-color"><i class="fa fa-heart-o"></i></button>                     
+                                                    <button type="button" class="btn btn-default btn-sm btn-color">ADD TO CART</button>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End .product-carousel -->
-                        <div class="product-item container margin-top50">
-                            <div class="row">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <h2>Voluptatibus mollitia quisquam aliquid</h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-                                    <div class="simpleLens-gallery-container" id="demo-simpleLens-gallery">
-                                        <div class="simpleLens-container">
-                                            <div class="simpleLens-big-image-container">
-                                                <a class="simpleLens-lens-image" data-lens-image="img/shop/products/large/benvado_elisa_bianco.jpg">
-                                                <img src="img/shop/products/medium/benvado_elisa_bianco.jpg" class="simpleLens-big-image">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="simpleLens-thumbnails-container">
-                                            <div class="product-gallery--caroufredsel_thumb">
-                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/benvado_elisa_bianco.jpg" data-big-image="img/shop/products/medium/benvado_elisa_bianco.jpg">
-                                                <img src="img/shop/products/thumbnail/benvado_elisa_bianco.jpg">
-                                                </a>
-                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/camper_21926_red.jpg" data-big-image="img/shop/products/medium/camper_21926_red.jpg">
-                                                <img src="img/shop/products/thumbnail/camper_21926_red.jpg">
-                                                </a>
-                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/flylondon_most_red.jpg" data-big-image="img/shop/products/medium/flylondon_most_red.jpg">
-                                                <img src="img/shop/products/thumbnail/flylondon_most_red.jpg">
-                                                </a>
-                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/benvado_elisa_bianco.jpg" data-big-image="img/shop/products/medium/benvado_elisa_bianco.jpg">
-                                                <img src="img/shop/products/thumbnail/benvado_elisa_bianco.jpg">
-                                                </a>
-                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/camper_21926_red.jpg" data-big-image="img/shop/products/medium/camper_21926_red.jpg">
-                                                <img src="img/shop/products/thumbnail/camper_21926_red.jpg">
-                                                </a>
-                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/flylondon_most_red.jpg" data-big-image="img/shop/products/medium/flylondon_most_red.jpg">
-                                                <img src="img/shop/products/thumbnail/flylondon_most_red.jpg">
-                                                </a>
-                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/benvado_elisa_bianco.jpg" data-big-image="img/shop/products/medium/benvado_elisa_bianco.jpg">
-                                                <img src="img/shop/products/thumbnail/benvado_elisa_bianco.jpg">
-                                                </a>
-                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/camper_21926_red.jpg" data-big-image="img/shop/products/medium/camper_21926_red.jpg">
-                                                <img src="img/shop/products/thumbnail/camper_21926_red.jpg">
-                                                </a>
-                                                <a href="#" class="simpleLens-thumbnail-wrapper" data-lens-image="img/shop/products/large/flylondon_most_red.jpg" data-big-image="img/shop/products/medium/flylondon_most_red.jpg">
-                                                <img src="img/shop/products/thumbnail/flylondon_most_red.jpg">
-                                                </a>                     
-                                            </div>
-                                            <a id="prev2" class="prev" href="#"><i class="fa fa-angle-left"></i></a>
-                                            <a id="next2" class="next" href="#"><i class="fa fa-angle-right"></i></a>
-                                            <!-- <div id="pager2" class="pager"></div> -->                     
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-                                    <div class="reviews-box">
-                                        <div class="rating-box">
-                                            <div class="rating pull-left">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="73px" height="12px" viewBox="0 0 73 12" enable-background="new 0 0 73 12" xml:space="preserve">
-                                                    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="6.5,0 8,5 13,5 9,7.7 10,12 6.5,9.2 3,12 4,7.7 0,5 5,5"></polygon>
-                                                    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="66.5,0 68,5 73,5 69,7.7 70,12 66.5,9.2 63,12 64,7.7 60,5 65,5 "></polygon>
-                                                    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="21.5,0 23,5 28,5 24,7.7 25,12 21.5,9.2 18,12 19,7.7 15,5 20,5 "></polygon>
-                                                    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="51.5,0 53,5 58,5 54,7.7 55,12 51.5,9.2 48,12 49,7.7 45,5 50,5 "></polygon>
-                                                    <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="36.5,0 38,5 43,5 39,7.7 40,12 36.5,9.2 33,12 34,7.7 30,5 35,5 "></polygon>
-                                                </svg>
-                                            </div>
-                                            <div class="reviews pull-left">
-                                                <p>5 review(s) | <a class="add-review" href="#reviews">Add your review</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-details">
-                                        <p class="short-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                        <p><b>Product Code :</b> 01xxx01</p>
-                                        <p><b>Stock : </b><button type="button" class="btn btn-default btn-sm btn-color">In Stock</button></p>
-                                        <p><b>Price : <button type="button" class="btn btn-default btn-sm" disabled="disabled">$1200</button> <button type="button" class="btn btn-default btn-sm">$999</button></b></p>
-                                        <p><b>Quantity :</b> <input class="btn btn-default btn-sm" type="button" value="1"></p>
-                                        <p>
-                                            <button type="button" class="btn btn-default btn-sm btn-color"><i class="fa fa-exchange"></i></button>
-                                            <button type="button" class="btn btn-default btn-sm btn-color"><i class="fa fa-heart-o"></i></button>                     
-                                            <button type="button" class="btn btn-default btn-sm btn-color">ADD TO CART</button>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row margin-top50">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <div class="widget tabs animate_afc">
-                                        <div id="horizontal-tabs">
-                                            <ul class="tabs">
-                                                <li id="tab1" class="current">Description</li>
-                                                <li id="tab2">Custom Tab</li>
-                                                <li id="tab3">Review (5)</li>
-                                            </ul>
-                                            <div class="contents">
-                                                <div class="tabscontent" id="content1" style="display: block;">
-                                                    <p>
-                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                                                    </p>
-                                                    <p>
-                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                                                    </p>
-                                                </div>
-                                                <div class="tabscontent" id="content2">
-                                                    <p>
-                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                                                    </p>
-                                                </div>
-                                                <div class="tabscontent" id="content3">
-                                                    <div id="reviews" class="posts-block col-lg-9 col-md-9 col-sm-8 col-xs-12 bottom-pad">
-                                                        <!-- Comments Section Start -->
-                                                        <div class="comment-wrapper">
-                                                            <h3 class="title">Reviews</h3>
-                                                            <div class="clearfix"></div>
-                                                            <div class="comments-sec">
-                                                                <ol class="commentlist">
-                                                                    <li>
-                                                                        <div class="comment" id="1">
-                                                                            <div class="avatar">
-                                                                                <img alt="" src="img/team/team-member-2.jpg">
-                                                                            </div>
-                                                                            <div class="comment-des">
-                                                                                <div class="arrow-comment">
-                                                                                </div>
-                                                                                <div class="comment-by">
-                                                                                    <strong>Simon Jones</strong><span class="date">July 30, 2013</span><span class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a></span>
-                                                                                </div>
-                                                                                <p>
-                                                                                    <b>Price : </b>
-                                                                                    <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="73px" height="12px" viewBox="0 0 73 12" enable-background="new 0 0 73 12" xml:space="preserve">
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="6.5,0 8,5 13,5 9,7.7 10,12 6.5,9.2 3,12 4,7.7 0,5 5,5"></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="66.5,0 68,5 73,5 69,7.7 70,12 66.5,9.2 63,12 64,7.7 60,5 65,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="21.5,0 23,5 28,5 24,7.7 25,12 21.5,9.2 18,12 19,7.7 15,5 20,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="51.5,0 53,5 58,5 54,7.7 55,12 51.5,9.2 48,12 49,7.7 45,5 50,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="36.5,0 38,5 43,5 39,7.7 40,12 36.5,9.2 33,12 34,7.7 30,5 35,5 "></polygon>
-                                                                                    </svg>
-                                                                                    |
-                                                                                    <b>Quality :  </b>
-                                                                                    <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="73px" height="12px" viewBox="0 0 73 12" enable-background="new 0 0 73 12" xml:space="preserve">
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="6.5,0 8,5 13,5 9,7.7 10,12 6.5,9.2 3,12 4,7.7 0,5 5,5"></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="66.5,0 68,5 73,5 69,7.7 70,12 66.5,9.2 63,12 64,7.7 60,5 65,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="21.5,0 23,5 28,5 24,7.7 25,12 21.5,9.2 18,12 19,7.7 15,5 20,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="51.5,0 53,5 58,5 54,7.7 55,12 51.5,9.2 48,12 49,7.7 45,5 50,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="36.5,0 38,5 43,5 39,7.7 40,12 36.5,9.2 33,12 34,7.7 30,5 35,5 "></polygon>
-                                                                                    </svg>
-                                                                                </p>
-                                                                                <p>
-                                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                                                                </p>
-                                                                            </div>
-                                                                            <div class="clearfix">
-                                                                            </div>
-                                                                        </div>
-                                                                        <ol class="childlist">
+                                    <div class="row margin-top50">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="widget tabs animate_afc">
+                                                <div id="horizontal-tabs">
+                                                    <ul class="tabs">
+                                                        <li id="tab1" class="current">Description</li>
+                                                        <li id="tab2">Custom Tab</li>
+                                                        <li id="tab3">Review (5)</li>
+                                                    </ul>
+                                                    <div class="contents">
+                                                        <div class="tabscontent" id="content1" style="display: block;">
+                                                            <p>
+                                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                                                            </p>
+                                                            <p>
+                                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                                                            </p>
+                                                        </div>
+                                                        <div class="tabscontent" id="content2">
+                                                            <p>
+                                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                                                            </p>
+                                                        </div>
+                                                        <div class="tabscontent" id="content3">
+                                                            <div id="reviews" class="posts-block col-lg-9 col-md-9 col-sm-8 col-xs-12 bottom-pad">
+                                                                <!-- Comments Section Start -->
+                                                                <div class="comment-wrapper">
+                                                                    <h3 class="title">Reviews</h3>
+                                                                    <div class="clearfix"></div>
+                                                                    <div class="comments-sec">
+                                                                        <ol class="commentlist">
                                                                             <li>
-                                                                                <div class="comment" id="3">
+                                                                                <div class="comment" id="1">
                                                                                     <div class="avatar">
-                                                                                        <img alt="" src="img/team/team-member-1.jpg">
+                                                                                        <img alt="" src="img/team/team-member-2.jpg">
                                                                                     </div>
                                                                                     <div class="comment-des">
                                                                                         <div class="arrow-comment">
                                                                                         </div>
                                                                                         <div class="comment-by">
-                                                                                            <strong>Admin</strong><span class="date">July 30, 2013</span><span class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a></span>
+                                                                                            <strong>Simon Jones</strong><span class="date">July 30, 2013</span><span class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a></span>
                                                                                         </div>
+                                                                                        <p>
+                                                                                            <b>Price : </b>
+                                                                                            <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="73px" height="12px" viewBox="0 0 73 12" enable-background="new 0 0 73 12" xml:space="preserve">
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="6.5,0 8,5 13,5 9,7.7 10,12 6.5,9.2 3,12 4,7.7 0,5 5,5"></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="66.5,0 68,5 73,5 69,7.7 70,12 66.5,9.2 63,12 64,7.7 60,5 65,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="21.5,0 23,5 28,5 24,7.7 25,12 21.5,9.2 18,12 19,7.7 15,5 20,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="51.5,0 53,5 58,5 54,7.7 55,12 51.5,9.2 48,12 49,7.7 45,5 50,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="36.5,0 38,5 43,5 39,7.7 40,12 36.5,9.2 33,12 34,7.7 30,5 35,5 "></polygon>
+                                                                                            </svg>
+                                                                                            |
+                                                                                            <b>Quality :  </b>
+                                                                                            <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="73px" height="12px" viewBox="0 0 73 12" enable-background="new 0 0 73 12" xml:space="preserve">
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="6.5,0 8,5 13,5 9,7.7 10,12 6.5,9.2 3,12 4,7.7 0,5 5,5"></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="66.5,0 68,5 73,5 69,7.7 70,12 66.5,9.2 63,12 64,7.7 60,5 65,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="21.5,0 23,5 28,5 24,7.7 25,12 21.5,9.2 18,12 19,7.7 15,5 20,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="51.5,0 53,5 58,5 54,7.7 55,12 51.5,9.2 48,12 49,7.7 45,5 50,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="36.5,0 38,5 43,5 39,7.7 40,12 36.5,9.2 33,12 34,7.7 30,5 35,5 "></polygon>
+                                                                                            </svg>
+                                                                                        </p>
                                                                                         <p>
                                                                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                                                                         </p>
@@ -515,453 +487,644 @@
                                                                                     <div class="clearfix">
                                                                                     </div>
                                                                                 </div>
+                                                                                <ol class="childlist">
+                                                                                    <li>
+                                                                                        <div class="comment" id="3">
+                                                                                            <div class="avatar">
+                                                                                                <img alt="" src="img/team/team-member-1.jpg">
+                                                                                            </div>
+                                                                                            <div class="comment-des">
+                                                                                                <div class="arrow-comment">
+                                                                                                </div>
+                                                                                                <div class="comment-by">
+                                                                                                    <strong>Admin</strong><span class="date">July 30, 2013</span><span class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a></span>
+                                                                                                </div>
+                                                                                                <p>
+                                                                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                                                                </p>
+                                                                                            </div>
+                                                                                            <div class="clearfix">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </li>
+                                                                                </ol>
+                                                                                <div class="clearfix">
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="comment" id="2">
+                                                                                    <div class="avatar">
+                                                                                        <img alt="" src="img/team/team-member-3.jpg">
+                                                                                    </div>
+                                                                                    <div class="comment-des">
+                                                                                        <div class="arrow-comment">
+                                                                                        </div>
+                                                                                        <div class="comment-by">
+                                                                                            <strong>Loren Simpson</strong><span class="date">July 30, 2013</span><span class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a></span>
+                                                                                        </div>
+                                                                                        <p>
+                                                                                            <b>Price : </b>
+                                                                                            <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="73px" height="12px" viewBox="0 0 73 12" enable-background="new 0 0 73 12" xml:space="preserve">
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="6.5,0 8,5 13,5 9,7.7 10,12 6.5,9.2 3,12 4,7.7 0,5 5,5"></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="66.5,0 68,5 73,5 69,7.7 70,12 66.5,9.2 63,12 64,7.7 60,5 65,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="21.5,0 23,5 28,5 24,7.7 25,12 21.5,9.2 18,12 19,7.7 15,5 20,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="51.5,0 53,5 58,5 54,7.7 55,12 51.5,9.2 48,12 49,7.7 45,5 50,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="36.5,0 38,5 43,5 39,7.7 40,12 36.5,9.2 33,12 34,7.7 30,5 35,5 "></polygon>
+                                                                                            </svg>
+                                                                                            |
+                                                                                            <b>Quality :  </b>
+                                                                                            <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="73px" height="12px" viewBox="0 0 73 12" enable-background="new 0 0 73 12" xml:space="preserve">
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="6.5,0 8,5 13,5 9,7.7 10,12 6.5,9.2 3,12 4,7.7 0,5 5,5"></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="66.5,0 68,5 73,5 69,7.7 70,12 66.5,9.2 63,12 64,7.7 60,5 65,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="21.5,0 23,5 28,5 24,7.7 25,12 21.5,9.2 18,12 19,7.7 15,5 20,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="51.5,0 53,5 58,5 54,7.7 55,12 51.5,9.2 48,12 49,7.7 45,5 50,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="36.5,0 38,5 43,5 39,7.7 40,12 36.5,9.2 33,12 34,7.7 30,5 35,5 "></polygon>
+                                                                                            </svg>
+                                                                                        </p>
+                                                                                        <p>
+                                                                                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="clearfix">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </li>
+                                                                            <li>
+                                                                                <div class="comment" id="4">
+                                                                                    <div class="avatar">
+                                                                                        <img alt="" src="img/team/team-member-4.jpg">
+                                                                                    </div>
+                                                                                    <div class="comment-des">
+                                                                                        <div class="arrow-comment">
+                                                                                        </div>
+                                                                                        <div class="comment-by">
+                                                                                            <strong>Indy Parker</strong><span class="date">July 30, 2013</span><span class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a></span>
+                                                                                        </div>
+                                                                                        <p>
+                                                                                            <b>Price : </b>
+                                                                                            <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="73px" height="12px" viewBox="0 0 73 12" enable-background="new 0 0 73 12" xml:space="preserve">
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="6.5,0 8,5 13,5 9,7.7 10,12 6.5,9.2 3,12 4,7.7 0,5 5,5"></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="66.5,0 68,5 73,5 69,7.7 70,12 66.5,9.2 63,12 64,7.7 60,5 65,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="21.5,0 23,5 28,5 24,7.7 25,12 21.5,9.2 18,12 19,7.7 15,5 20,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="51.5,0 53,5 58,5 54,7.7 55,12 51.5,9.2 48,12 49,7.7 45,5 50,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="36.5,0 38,5 43,5 39,7.7 40,12 36.5,9.2 33,12 34,7.7 30,5 35,5 "></polygon>
+                                                                                            </svg>
+                                                                                            |
+                                                                                            <b>Quality :  </b>
+                                                                                            <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="73px" height="12px" viewBox="0 0 73 12" enable-background="new 0 0 73 12" xml:space="preserve">
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="6.5,0 8,5 13,5 9,7.7 10,12 6.5,9.2 3,12 4,7.7 0,5 5,5"></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="66.5,0 68,5 73,5 69,7.7 70,12 66.5,9.2 63,12 64,7.7 60,5 65,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="21.5,0 23,5 28,5 24,7.7 25,12 21.5,9.2 18,12 19,7.7 15,5 20,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="51.5,0 53,5 58,5 54,7.7 55,12 51.5,9.2 48,12 49,7.7 45,5 50,5 "></polygon>
+                                                                                                <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="36.5,0 38,5 43,5 39,7.7 40,12 36.5,9.2 33,12 34,7.7 30,5 35,5 "></polygon>
+                                                                                            </svg>
+                                                                                        </p>
+                                                                                        <p>
+                                                                                            Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="clearfix">
+                                                                                    </div>
+                                                                                </div>
                                                                             </li>
                                                                         </ol>
+                                                                    </div>
+                                                                    <div class="clearfix">
+                                                                    </div>
+                                                                </div>
+                                                                <!-- Comments Section End -->
+                                                                <div class="divider"></div>
+                                                                <!-- Reply Section Start -->
+                                                                <div class="reply">
+                                                                    <h3 class="title">Write Your Review</h3>
+                                                                    <form class="reply" id="reply">
+                                                                        <fieldset>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                                                    <label>Name: <span>*</span></label>
+                                                                                    <input class="form-control" type="text" value="" required>
+                                                                                </div>
+                                                                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                                                                    <label>Email: <span>*</span></label>
+                                                                                    <input class="form-control" type="text" value="" required>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                                    <label>Comment: <span>*</span></label>
+                                                                                    <textarea class="form-control" rows="3" cols="40" required></textarea>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="row">
+                                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                                                    <p>                                            
+                                                                                        <label><b>Price : <span>* </span></b></label>
+                                                                                        <span class="rating-input">
+                                                                                        <input type="radio" name="priceRadioOptions" id="priceRadio1" value="priceOption1"> 1
+                                                                                        <input type="radio" name="priceRadioOptions" id="priceRadio2" value="priceOption2"> 2
+                                                                                        <input type="radio" name="priceRadioOptions" id="priceRadio3" value="priceOption3"> 3
+                                                                                        <input type="radio" name="priceRadioOptions" id="priceRadio4" value="priceOption4"> 4
+                                                                                        <input type="radio" name="priceRadioOptions" id="priceRadio5" value="priceOption5"> 5
+                                                                                        </span>    
+                                                                                        ||| 
+                                                                                        <label><b>Quality : <span>* </span> </b></label>
+                                                                                        <span class="rating-input">
+                                                                                        <input type="radio" name="qualityRadioOptions" id="qualityRadio1" value="qualityOption1"> 1
+                                                                                        <input type="radio" name="qualityRadioOptions" id="qualityRadio2" value="qualityOption2"> 2
+                                                                                        <input type="radio" name="qualityRadioOptions" id="qualityRadio3" value="qualityOption3"> 3
+                                                                                        <input type="radio" name="qualityRadioOptions" id="qualityRadio4" value="qualityOption4"> 4
+                                                                                        <input type="radio" name="qualityRadioOptions" id="qualityRadio5" value="qualityOption5"> 5
+                                                                                        </span>                                      
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </fieldset>
+                                                                        <button class="btn-normal btn-color margin-top30" type="submit">Submit</button>
                                                                         <div class="clearfix">
                                                                         </div>
-                                                                    </li>
-                                                                    <li>
-                                                                        <div class="comment" id="2">
-                                                                            <div class="avatar">
-                                                                                <img alt="" src="img/team/team-member-3.jpg">
-                                                                            </div>
-                                                                            <div class="comment-des">
-                                                                                <div class="arrow-comment">
-                                                                                </div>
-                                                                                <div class="comment-by">
-                                                                                    <strong>Loren Simpson</strong><span class="date">July 30, 2013</span><span class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a></span>
-                                                                                </div>
-                                                                                <p>
-                                                                                    <b>Price : </b>
-                                                                                    <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="73px" height="12px" viewBox="0 0 73 12" enable-background="new 0 0 73 12" xml:space="preserve">
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="6.5,0 8,5 13,5 9,7.7 10,12 6.5,9.2 3,12 4,7.7 0,5 5,5"></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="66.5,0 68,5 73,5 69,7.7 70,12 66.5,9.2 63,12 64,7.7 60,5 65,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="21.5,0 23,5 28,5 24,7.7 25,12 21.5,9.2 18,12 19,7.7 15,5 20,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="51.5,0 53,5 58,5 54,7.7 55,12 51.5,9.2 48,12 49,7.7 45,5 50,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="36.5,0 38,5 43,5 39,7.7 40,12 36.5,9.2 33,12 34,7.7 30,5 35,5 "></polygon>
-                                                                                    </svg>
-                                                                                    |
-                                                                                    <b>Quality :  </b>
-                                                                                    <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="73px" height="12px" viewBox="0 0 73 12" enable-background="new 0 0 73 12" xml:space="preserve">
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="6.5,0 8,5 13,5 9,7.7 10,12 6.5,9.2 3,12 4,7.7 0,5 5,5"></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="66.5,0 68,5 73,5 69,7.7 70,12 66.5,9.2 63,12 64,7.7 60,5 65,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="21.5,0 23,5 28,5 24,7.7 25,12 21.5,9.2 18,12 19,7.7 15,5 20,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="51.5,0 53,5 58,5 54,7.7 55,12 51.5,9.2 48,12 49,7.7 45,5 50,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="36.5,0 38,5 43,5 39,7.7 40,12 36.5,9.2 33,12 34,7.7 30,5 35,5 "></polygon>
-                                                                                    </svg>
-                                                                                </p>
-                                                                                <p>
-                                                                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                                                                                </p>
-                                                                            </div>
-                                                                            <div class="clearfix">
-                                                                            </div>
-                                                                        </div>
-                                                                    </li>
-                                                                    <li>
-                                                                        <div class="comment" id="4">
-                                                                            <div class="avatar">
-                                                                                <img alt="" src="img/team/team-member-4.jpg">
-                                                                            </div>
-                                                                            <div class="comment-des">
-                                                                                <div class="arrow-comment">
-                                                                                </div>
-                                                                                <div class="comment-by">
-                                                                                    <strong>Indy Parker</strong><span class="date">July 30, 2013</span><span class="reply"><a href="#"><i class="fa fa-reply"></i> Reply</a></span>
-                                                                                </div>
-                                                                                <p>
-                                                                                    <b>Price : </b>
-                                                                                    <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="73px" height="12px" viewBox="0 0 73 12" enable-background="new 0 0 73 12" xml:space="preserve">
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="6.5,0 8,5 13,5 9,7.7 10,12 6.5,9.2 3,12 4,7.7 0,5 5,5"></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="66.5,0 68,5 73,5 69,7.7 70,12 66.5,9.2 63,12 64,7.7 60,5 65,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="21.5,0 23,5 28,5 24,7.7 25,12 21.5,9.2 18,12 19,7.7 15,5 20,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="51.5,0 53,5 58,5 54,7.7 55,12 51.5,9.2 48,12 49,7.7 45,5 50,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="36.5,0 38,5 43,5 39,7.7 40,12 36.5,9.2 33,12 34,7.7 30,5 35,5 "></polygon>
-                                                                                    </svg>
-                                                                                    |
-                                                                                    <b>Quality :  </b>
-                                                                                    <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="73px" height="12px" viewBox="0 0 73 12" enable-background="new 0 0 73 12" xml:space="preserve">
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="6.5,0 8,5 13,5 9,7.7 10,12 6.5,9.2 3,12 4,7.7 0,5 5,5"></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#c7c7c7" points="66.5,0 68,5 73,5 69,7.7 70,12 66.5,9.2 63,12 64,7.7 60,5 65,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="21.5,0 23,5 28,5 24,7.7 25,12 21.5,9.2 18,12 19,7.7 15,5 20,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="51.5,0 53,5 58,5 54,7.7 55,12 51.5,9.2 48,12 49,7.7 45,5 50,5 "></polygon>
-                                                                                        <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3498db" points="36.5,0 38,5 43,5 39,7.7 40,12 36.5,9.2 33,12 34,7.7 30,5 35,5 "></polygon>
-                                                                                    </svg>
-                                                                                </p>
-                                                                                <p>
-                                                                                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-                                                                                </p>
-                                                                            </div>
-                                                                            <div class="clearfix">
-                                                                            </div>
-                                                                        </div>
-                                                                    </li>
-                                                                </ol>
-                                                            </div>
-                                                            <div class="clearfix">
-                                                            </div>
-                                                        </div>
-                                                        <!-- Comments Section End -->
-                                                        <div class="divider"></div>
-                                                        <!-- Reply Section Start -->
-                                                        <div class="reply">
-                                                            <h3 class="title">Write Your Review</h3>
-                                                            <form class="reply" id="reply">
-                                                                <fieldset>
-                                                                    <div class="row">
-                                                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                                            <label>Name: <span>*</span></label>
-                                                                            <input class="form-control" type="text" value="" required>
-                                                                        </div>
-                                                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                                            <label>Email: <span>*</span></label>
-                                                                            <input class="form-control" type="text" value="" required>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                                            <label>Comment: <span>*</span></label>
-                                                                            <textarea class="form-control" rows="3" cols="40" required></textarea>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="row">
-                                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                                                            <p>                                            
-                                                                                <label><b>Price : <span>* </span></b></label>
-                                                                                <span class="rating-input">
-                                                                                <input type="radio" name="priceRadioOptions" id="priceRadio1" value="priceOption1"> 1
-                                                                                <input type="radio" name="priceRadioOptions" id="priceRadio2" value="priceOption2"> 2
-                                                                                <input type="radio" name="priceRadioOptions" id="priceRadio3" value="priceOption3"> 3
-                                                                                <input type="radio" name="priceRadioOptions" id="priceRadio4" value="priceOption4"> 4
-                                                                                <input type="radio" name="priceRadioOptions" id="priceRadio5" value="priceOption5"> 5
-                                                                                </span>    
-                                                                                ||| 
-                                                                                <label><b>Quality : <span>* </span> </b></label>
-                                                                                <span class="rating-input">
-                                                                                <input type="radio" name="qualityRadioOptions" id="qualityRadio1" value="qualityOption1"> 1
-                                                                                <input type="radio" name="qualityRadioOptions" id="qualityRadio2" value="qualityOption2"> 2
-                                                                                <input type="radio" name="qualityRadioOptions" id="qualityRadio3" value="qualityOption3"> 3
-                                                                                <input type="radio" name="qualityRadioOptions" id="qualityRadio4" value="qualityOption4"> 4
-                                                                                <input type="radio" name="qualityRadioOptions" id="qualityRadio5" value="qualityOption5"> 5
-                                                                                </span>                                      
-                                                                            </p>
-                                                                        </div>
-                                                                    </div>
-                                                                </fieldset>
-                                                                <button class="btn-normal btn-color margin-top30" type="submit">Submit</button>
-                                                                <div class="clearfix">
+                                                                    </form>
                                                                 </div>
-                                                            </form>
+                                                                <!-- Reply Section End -->                              
+                                                            </div>
                                                         </div>
-                                                        <!-- Reply Section End -->                              
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Tab End -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End product-item -->
+                            <div class="related-product ">
+                                <div class="container margin-top50">
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                            <h2>Related Products</h2>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                            <div class="product-carousel-control pull-right">            
+                                                <a id="prev1" class="prev" href="#product-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+                                                <a id="next1" class="next" href="#product-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div id="product-carousel" class="product-carousel slide">
+                                                <div class="carousel-inner">
+                                                    <div class="item active">
+                                                        <div class="product-grid">
+                                                            <div class="products-block">
+                                                                <div class="row product-items">
+                                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 product-cols first">
+                                                                        <div class="product-block">
+                                                                            <div class="image ">
+                                                                                <span class="product-label product-label-special">
+                                                                                <span>NEW</span>
+                                                                                </span>
+                                                                                <!-- Swap image -->
+                                                                                <div class="flip">
+                                                                                    <a href="product-view.html" class="swap-image">
+                                                                                    <img src="img/shop/product_01-190x166.jpg" title="Apple Cinema 30" alt="Apple Cinema 30" class="front">
+                                                                                    </a>
+                                                                                </div>
+                                                                                <a href="product-view.html" class="pav-colorbox btn btn-theme-default cboxElement"><em class="fa fa-plus"></em><span>View Product</span></a>
+                                                                            </div>
+                                                                            <div class="product-meta">
+                                                                                <div class="left">
+                                                                                    <h3 class="name"><a href="product-view.html">Apple Cinema 30"</a></h3>
+                                                                                    <div class="price">
+                                                                                        <span class="price-old">$119.50</span>
+                                                                                        <span class="price-new">$107.75</span>
+                                                                                        <span class="price-tax">Ex Tax: $90.00</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="right">
+                                                                                    <div class="rating">
+                                                                                        <img src="img/shop/stars-5.png" alt="Based on 1 reviews.">
+                                                                                    </div>
+                                                                                    <p class="description">
+                                                                                        The 30-inch Apple Cinema HD Display delivers an amazing 2560 x 1600 pixel resolution. Designed speci.....
+                                                                                    </p>
+                                                                                    <div class="action">
+                                                                                        <div class="cart">
+                                                                                            <!-- <input type="button" value="" onclick="addToCart('');" class="product-icon fa fa-shopping-cart shopping-cart" /> -->
+                                                                                            <button class="btn btn-shopping-cart">
+                                                                                            <span class="fa fa-shopping-cart product-icon hidden-sm">&nbsp;</span>
+                                                                                            <span>Add to Cart</span>
+                                                                                            </button>
+                                                                                        </div>
+                                                                                        <div class="button-group">
+                                                                                            <div class="wishlist">
+                                                                                                <a title="Add to Wish List" class="fa fa-heart product-icon">
+                                                                                                <span>Add to Wish List</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="compare">
+                                                                                                <a title="Add to Compare" class="fa fa-refresh product-icon">
+                                                                                                <span>Add to Compare</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 product-cols">
+                                                                        <div class="product-block">
+                                                                            <div class="image ">
+                                                                                <span class="product-label product-label-special">
+                                                                                <span>Sale</span>
+                                                                                </span>
+                                                                                <!-- Swap image -->
+                                                                                <div class="flip">
+                                                                                    <a href="product-view.html" class="swap-image">
+                                                                                    <img src="img/shop/product_22-190x166.jpg" title="Canon EOS 40D 10.1MP SLR" alt="Canon EOS 40D 10.1MP SLR" class="front">
+                                                                                    </a>
+                                                                                </div>
+                                                                                <a href="product-view.html" class="pav-colorbox btn btn-theme-default cboxElement"><em class="fa fa-plus"></em><span>View Product</span></a>
+                                                                            </div>
+                                                                            <div class="product-meta">
+                                                                                <div class="left">
+                                                                                    <h3 class="name"><a href="product-view.html">Canon EOS 40D 10.1MP SLR</a></h3>
+                                                                                    <div class="price">
+                                                                                        <span class="price-old">$589.50</span>
+                                                                                        <span class="price-new">$107.75</span>
+                                                                                        <span class="price-tax">Ex Tax: $90.00</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="right">
+                                                                                    <div class="rating">
+                                                                                        <img src="img/shop/stars-4.png" alt="Based on 1 reviews.">
+                                                                                    </div>
+                                                                                    <p class="description">
+                                                                                        More room to move. With 80GB or 160GB of storage and up to 40 hours of battery life, the new .....
+                                                                                    </p>
+                                                                                    <div class="action">
+                                                                                        <div class="cart">
+                                                                                            <!-- <input type="button" value="" onclick="addToCart('');" class="product-icon fa fa-shopping-cart shopping-cart" /> -->
+                                                                                            <button class="btn btn-shopping-cart">
+                                                                                            <span class="fa fa-shopping-cart product-icon hidden-sm">&nbsp;</span>
+                                                                                            <span>Add to Cart</span>
+                                                                                            </button>
+                                                                                        </div>
+                                                                                        <div class="button-group">
+                                                                                            <div class="wishlist">
+                                                                                                <a title="Add to Wish List" class="fa fa-heart product-icon">
+                                                                                                <span>Add to Wish List</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="compare">
+                                                                                                <a title="Add to Compare" class="fa fa-refresh product-icon">
+                                                                                                <span>Add to Compare</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 product-cols">
+                                                                        <div class="product-block">
+                                                                            <div class="image ">
+                                                                                <!-- Swap image -->
+                                                                                <div class="flip">
+                                                                                    <a href="product-view.html" class="swap-image">
+                                                                                    <img src="img/shop/product_16-190x166.jpg" title="Canon EOS 40D 10.1MP SLR" alt="Canon EOS 40D 10.1MP SLR" class="front">
+                                                                                    </a>
+                                                                                </div>
+                                                                                <a href="product-view.html" class="pav-colorbox btn btn-theme-default cboxElement"><em class="fa fa-plus"></em><span>View Product</span></a>
+                                                                            </div>
+                                                                            <div class="product-meta">
+                                                                                <div class="left">
+                                                                                    <h3 class="name"><a href="product-view.html">Canon EOS 40D 10.1MP SLR</a></h3>
+                                                                                    <div class="price">
+                                                                                        <span class="special-price">$589.50</span>
+                                                                                        <span class="price-tax">Ex Tax: $500.00</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="right">
+                                                                                    <div class="rating">
+                                                                                    </div>
+                                                                                    <p class="description">
+                                                                                        Born to be worn. Clip on the worlds most wearable music player and take up to 240 songs with you an.....
+                                                                                    </p>
+                                                                                    <div class="action">
+                                                                                        <div class="cart">
+                                                                                            <!-- <input type="button" value="" onclick="addToCart('');" class="product-icon fa fa-shopping-cart shopping-cart" /> -->
+                                                                                            <button class="btn btn-shopping-cart">
+                                                                                            <span class="fa fa-shopping-cart product-icon hidden-sm">&nbsp;</span>
+                                                                                            <span>Add to Cart</span>
+                                                                                            </button>
+                                                                                        </div>
+                                                                                        <div class="button-group">
+                                                                                            <div class="wishlist">
+                                                                                                <a title="Add to Wish List" class="fa fa-heart product-icon">
+                                                                                                <span>Add to Wish List</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="compare">
+                                                                                                <a title="Add to Compare" class="fa fa-refresh product-icon">
+                                                                                                <span>Add to Compare</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 product-cols last">
+                                                                        <div class="product-block">
+                                                                            <div class="image ">
+                                                                                <!-- Swap image -->
+                                                                                <div class="flip">
+                                                                                    <a href="product-view.html" class="swap-image">
+                                                                                    <img src="img/shop/product_05-190x166.jpg" title="Canon EOS 40D 10.1MP SLR" alt="Canon EOS 40D 10.1MP SLR" class="front">
+                                                                                    </a>
+                                                                                </div>
+                                                                                <a href="product-view.html" class="pav-colorbox btn btn-theme-default cboxElement"><em class="fa fa-plus"></em><span>View Product</span></a>
+                                                                            </div>
+                                                                            <div class="product-meta">
+                                                                                <div class="left">
+                                                                                    <h3 class="name"><a href="product-view.html">Canon EOS 40D 10.1MP SLR</a></h3>
+                                                                                    <div class="price">
+                                                                                        <span class="special-price">$589.50</span>
+                                                                                        <span class="price-tax">Ex Tax: $500.00</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="right">
+                                                                                    <div class="rating">
+                                                                                        <img src="img/shop/stars-3.png" alt="Based on 1 reviews.">
+                                                                                    </div>
+                                                                                    <p class="description">
+                                                                                        Intel Core 2 Duo processor Powered by an Intel Core 2 Duo processor at speeds up to 2.16GHz, th.....
+                                                                                    </p>
+                                                                                    <div class="action">
+                                                                                        <div class="cart">
+                                                                                            <!-- <input type="button" value="" onclick="addToCart('');" class="product-icon fa fa-shopping-cart shopping-cart" /> -->
+                                                                                            <button class="btn btn-shopping-cart">
+                                                                                            <span class="fa fa-shopping-cart product-icon hidden-sm">&nbsp;</span>
+                                                                                            <span>Add to Cart</span>
+                                                                                            </button>
+                                                                                        </div>
+                                                                                        <div class="button-group">
+                                                                                            <div class="wishlist">
+                                                                                                <a title="Add to Wish List" class="fa fa-heart product-icon">
+                                                                                                <span>Add to Wish List</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="compare">
+                                                                                                <a title="Add to Compare" class="fa fa-refresh product-icon">
+                                                                                                <span>Add to Compare</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="product-grid">
+                                                            <div class="products-block">
+                                                                <div class="row product-items">
+                                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 product-cols first">
+                                                                        <div class="product-block">
+                                                                            <div class="image ">
+                                                                                <span class="product-label product-label-special">
+                                                                                <span>-10%</span>
+                                                                                </span>
+                                                                                <!-- Swap image -->
+                                                                                <div class="flip">
+                                                                                    <a href="product-view.html" class="swap-image">
+                                                                                    <img src="img/shop/product_17-190x166.jpg" title="Canon EOS 40D 10.1MP SLR" alt="Canon EOS 40D 10.1MP SLR" class="front">
+                                                                                    </a>
+                                                                                </div>
+                                                                                <a href="product-view.html" class="pav-colorbox btn btn-theme-default cboxElement"><em class="fa fa-plus"></em><span>View Product</span></a>
+                                                                            </div>
+                                                                            <div class="product-meta">
+                                                                                <div class="left">
+                                                                                    <h3 class="name"><a href="product-view.html">Canon EOS 40D 10.1MP SLR</a></h3>
+                                                                                    <div class="price">
+                                                                                        <span class="price-old">$54.88</span>
+                                                                                        <span class="price-new">$96.00</span>
+                                                                                        <span class="price-tax">Ex Tax: $80.00</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="right">
+                                                                                    <div class="rating">
+                                                                                        <img src="img/shop/stars-5.png" alt="Based on 2 reviews.">
+                                                                                    </div>
+                                                                                    <p class="description">
+                                                                                        Canon's press material for the EOS 5D states that it 'defines (a) new D-SLR category', while we're n.....
+                                                                                    </p>
+                                                                                    <div class="action">
+                                                                                        <div class="cart">
+                                                                                            <!-- <input type="button" value="" onclick="addToCart('');" class="product-icon fa fa-shopping-cart shopping-cart" /> -->
+                                                                                            <button class="btn btn-shopping-cart">
+                                                                                            <span class="fa fa-shopping-cart product-icon hidden-sm">&nbsp;</span>
+                                                                                            <span>Add to Cart</span>
+                                                                                            </button>
+                                                                                        </div>
+                                                                                        <div class="button-group">
+                                                                                            <div class="wishlist">
+                                                                                                <a title="Add to Wish List" class="fa fa-heart product-icon">
+                                                                                                <span>Add to Wish List</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="compare">
+                                                                                                <a title="Add to Compare" class="fa fa-refresh product-icon">
+                                                                                                <span>Add to Compare</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 product-cols">
+                                                                        <div class="product-block">
+                                                                            <div class="image ">
+                                                                                <span class="product-label product-label-special">
+                                                                                <span>Sale</span>
+                                                                                </span>
+                                                                                <!-- Swap image -->
+                                                                                <div class="flip">
+                                                                                    <a href="product-view.html" class="swap-image">
+                                                                                    <img src="img/shop/product_02-190x166.jpg" title="Canon EOS 40D 10.1MP SLR" alt="Canon EOS 40D 10.1MP SLR" class="front">
+                                                                                    </a>
+                                                                                </div>
+                                                                                <a href="product-view.html" class="pav-colorbox btn btn-theme-default cboxElement"><em class="fa fa-plus"></em><span>View Product</span></a>
+                                                                            </div>
+                                                                            <div class="product-meta">
+                                                                                <div class="left">
+                                                                                    <h3 class="name"><a href="product-view.html">Canon EOS 40D 10.1MP SLR</a></h3>
+                                                                                    <div class="price">
+                                                                                        <span class="price-old">$119.50</span>
+                                                                                        <span class="price-new">$107.75</span>
+                                                                                        <span class="price-tax">Ex Tax: $90.00</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="right">
+                                                                                    <div class="rating">
+                                                                                        <img src="img/shop/stars-4.png" alt="Based on 1 reviews.">
+                                                                                    </div>
+                                                                                    <p class="description">
+                                                                                        Video in your pocket. Its the small iPod with one very big idea: video. The worlds most popular.....
+                                                                                    </p>
+                                                                                    <div class="action">
+                                                                                        <div class="cart">
+                                                                                            <!-- <input type="button" value="" onclick="addToCart('');" class="product-icon fa fa-shopping-cart shopping-cart" /> -->
+                                                                                            <button class="btn btn-shopping-cart">
+                                                                                            <span class="fa fa-shopping-cart product-icon hidden-sm">&nbsp;</span>
+                                                                                            <span>Add to Cart</span>
+                                                                                            </button>
+                                                                                        </div>
+                                                                                        <div class="button-group">
+                                                                                            <div class="wishlist">
+                                                                                                <a title="Add to Wish List" class="fa fa-heart product-icon">
+                                                                                                <span>Add to Wish List</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="compare">
+                                                                                                <a title="Add to Compare" class="fa fa-refresh product-icon">
+                                                                                                <span>Add to Compare</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 product-cols">
+                                                                        <div class="product-block">
+                                                                            <div class="image ">
+                                                                                <!-- Swap image -->
+                                                                                <div class="flip">
+                                                                                    <a href="product-view.html" class="swap-image">
+                                                                                    <img src="img/shop/product_08-190x166.jpg" title="Canon EOS 40D 10.1MP SLR" alt="Canon EOS 40D 10.1MP SLR" class="front">
+                                                                                    </a>
+                                                                                </div>
+                                                                                <a class="pav-colorbox btn btn-theme-default cboxElement" href="product-view.html"><em class="fa fa-plus"></em><span>View Product</span></a>
+                                                                            </div>
+                                                                            <div class="product-meta">
+                                                                                <div class="left">
+                                                                                    <h3 class="name"><a href="product-view.html">Canon EOS 40D 10.1MP SLR</a></h3>
+                                                                                    <div class="price">
+                                                                                        <span class="special-price">$96.00</span>
+                                                                                        <span class="price-tax">Ex Tax: $80.00</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="right">
+                                                                                    <div class="rating">
+                                                                                        <img src="img/shop/stars-4.png" alt="Based on 1 reviews.">
+                                                                                    </div>
+                                                                                    <p class="description">
+                                                                                        Engineered with pro-level features and performance, the 12.3-effective-megapixel D300 combines bra.....
+                                                                                    </p>
+                                                                                    <div class="action">
+                                                                                        <div class="cart">
+                                                                                            <!-- <input type="button" value="" onclick="addToCart('');" class="product-icon fa fa-shopping-cart shopping-cart" /> -->
+                                                                                            <button class="btn btn-shopping-cart">
+                                                                                            <span class="fa fa-shopping-cart product-icon hidden-sm">&nbsp;</span>
+                                                                                            <span>Add to Cart</span>
+                                                                                            </button>
+                                                                                        </div>
+                                                                                        <div class="button-group">
+                                                                                            <div class="wishlist">
+                                                                                                <a title="Add to Wish List" class="fa fa-heart product-icon">
+                                                                                                <span>Add to Wish List</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="compare">
+                                                                                                <a title="Add to Compare" class="fa fa-refresh product-icon">
+                                                                                                <span>Add to Compare</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 product-cols last">
+                                                                        <div class="product-block">
+                                                                            <div class="image ">
+                                                                                <span class="product-label product-label-special">
+                                                                                <span>-11%</span>
+                                                                                </span>
+                                                                                <!-- Swap image -->
+                                                                                <div class="flip">
+                                                                                    <a href="product-view.html" class="swap-image">
+                                                                                    <img src="img/shop/product_21-190x166.jpg" title="Canon EOS 40D 10.1MP SLR" alt="Canon EOS 40D 10.1MP SLR" class="front">
+                                                                                    </a>
+                                                                                </div>
+                                                                                <a href="product-view.html" class="pav-colorbox btn btn-theme-default cboxElement"><em class="fa fa-plus"></em><span>View Product</span></a>
+                                                                            </div>
+                                                                            <div class="product-meta">
+                                                                                <div class="left">
+                                                                                    <h3 class="name"><a href="product-view.html">Canon EOS 40D 10.1MP SLR</a></h3>
+                                                                                    <div class="price">
+                                                                                        <span class="price-old">$1,175.83</span>
+                                                                                        <span class="price-new">$107.75</span>
+                                                                                        <span class="price-tax">Ex Tax: $90.00</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="right">
+                                                                                    <div class="rating">
+                                                                                        <img src="img/shop/stars-3.png" alt="Based on 1 reviews.">
+                                                                                    </div>
+                                                                                    <p class="description">
+                                                                                        iPhone is a revolutionary new mobile phone that allows you to make a call by simply tapping a name o.....
+                                                                                    </p>
+                                                                                    <div class="action">
+                                                                                        <div class="cart">
+                                                                                            <!-- <input type="button" value="" onclick="addToCart('');" class="product-icon fa fa-shopping-cart shopping-cart" /> -->
+                                                                                            <button class="btn btn-shopping-cart">
+                                                                                            <span class="fa fa-shopping-cart product-icon hidden-sm">&nbsp;</span>
+                                                                                            <span>Add to Cart</span>
+                                                                                            </button>
+                                                                                        </div>
+                                                                                        <div class="button-group">
+                                                                                            <div class="wishlist">
+                                                                                                <a title="Add to Wish List" class="fa fa-heart product-icon">
+                                                                                                <span>Add to Wish List</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                            <div class="compare">
+                                                                                                <a title="Add to Compare" class="fa fa-refresh product-icon">
+                                                                                                <span>Add to Compare</span>
+                                                                                                </a>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Tab End -->
                                 </div>
-                            </div>
-                        </div>
-                        <!-- End product-item -->
-                        <div class="related-product container margin-top50">
-                            <div class="row">
-                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                                    <h2>Related Products</h2>
-                                </div>
-                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                 <div class="caroufredsel-control pull-right">            
-                                    <a id="prev3" class="prev" href="#"><i class="fa fa-angle-left"></i></a>
-
-                                    <a id="next3" class="next" href="#"><i class="fa fa-angle-right"></i></a>
-                                    <!-- <div id="pager1" class="pager"></div> -->
-                                    </div>               
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div id="cbp-pgcontainer" class="cbp-pgcontainer">
-                                    <div class="list_carousel">
-                                        <div class="related-product-caroufredsel">
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                                <div class="cbp-pggrid">
-                                                    <div class="cbp-pgcontent-list">
-                                                        <div class="cbp-pgcontent">
-                                                            <span class="cbp-pgrotate"><i class="fa fa-arrows-h"></i></span>
-                                                            <div class="cbp-pgitem">
-                                                                <div class="cbp-pgitem-flip">
-                                                                    <img src="img/shop/1_front.png" />
-                                                                    <img src="img/shop/1_back.png" />
-                                                                </div>
-                                                            </div>
-                                                            <!-- /cbp-pgitem -->
-                                                            <ul class="cbp-pgoptions">
-                                                                <li class="cbp-pgoptcompare"><i class="fa fa-exchange"></i></li>
-                                                                <li class="cbp-pgoptfav"><i class="fa fa-heart-o"></i></li>
-                                                                <li class="cbp-pgoptsize">
-                                                                    <span data-size="XL">XL</span>
-                                                                    <div class="cbp-pgopttooltip">
-                                                                        <span data-size="XL">XL</span>
-                                                                        <span data-size="L">L</span>
-                                                                        <span data-size="M">M</span>
-                                                                        <span data-size="S">S</span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="cbp-pgoptcolor">
-                                                                    <span data-color="c1">Blue</span>
-                                                                    <div class="cbp-pgopttooltip">
-                                                                        <span data-color="c1">Blue</span>
-                                                                        <span data-color="c2">Pink</span>
-                                                                        <span data-color="c3">Orange</span>
-                                                                        <span data-color="c4">Green</span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="cbp-pgoptcart"><i class="fa fa-shopping-cart"></i></li>
-                                                            </ul>
-                                                            <!-- cbp-pgoptions -->
-                                                        </div>
-                                                        <!-- cbp-pgcontent -->
-                                                        <div class="cbp-pginfo">
-                                                            <a href="product-view.html">
-                                                                <h3>Save my trees</h3>
-                                                            </a>
-                                                            <span class="cbp-pgprice">$29</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                                <div class="cbp-pggrid">
-                                                    <div class="cbp-pgcontent-list">
-                                                        <div class="cbp-pgcontent">
-                                                            <span class="cbp-pgrotate"><i class="fa fa-arrows-h"></i></span>
-                                                            <div class="cbp-pgitem">
-                                                                <div class="cbp-pgitem-flip">
-                                                                    <img src="img/shop/2_front.png" />
-                                                                    <img src="img/shop/2_back.png" />
-                                                                </div>
-                                                            </div>
-                                                            <!-- /cbp-pgitem -->
-                                                            <ul class="cbp-pgoptions">
-                                                                <li class="cbp-pgoptcompare"><i class="fa fa-exchange"></i></li>
-                                                                <li class="cbp-pgoptfav"><i class="fa fa-heart-o"></i> </li>
-                                                                <li class="cbp-pgoptsize">
-                                                                    <span data-size="XL">XL</span>
-                                                                    <div class="cbp-pgopttooltip">
-                                                                        <span data-size="XL">XL</span>
-                                                                        <span data-size="L">L</span>
-                                                                        <span data-size="M">M</span>
-                                                                        <span data-size="S">S</span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="cbp-pgoptcolor">
-                                                                    <span data-color="c2">Pink</span>
-                                                                    <div class="cbp-pgopttooltip">
-                                                                        <span data-color="c1">Blue</span>
-                                                                        <span data-color="c2">Pink</span>
-                                                                        <span data-color="c3">Orange</span>
-                                                                        <span data-color="c4">Green</span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="cbp-pgoptcart"><i class="fa fa-shopping-cart"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="cbp-pginfo">
-                                                            <a href="product-view.html">
-                                                                <h3>Nature Lover</h3>
-                                                            </a>
-                                                            <span class="cbp-pgprice">$19</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                                <div class="cbp-pggrid">
-                                                    <div class="cbp-pgcontent-list">
-                                                        <div class="cbp-pgcontent">
-                                                            <span class="cbp-pgrotate"><i class="fa fa-arrows-h"></i></span>
-                                                            <div class="cbp-pgitem">
-                                                                <div class="cbp-pgitem-flip">
-                                                                    <img src="img/shop/3_front.png" />
-                                                                    <img src="img/shop/3_back.png" />
-                                                                </div>
-                                                            </div>
-                                                            <!-- /cbp-pgitem -->
-                                                            <ul class="cbp-pgoptions">
-                                                                <li class="cbp-pgoptcompare"><i class="fa fa-exchange"></i></li>
-                                                                <li class="cbp-pgoptfav"><i class="fa fa-heart-o"></i></li>
-                                                                <li class="cbp-pgoptsize">
-                                                                    <span data-size="XL">XL</span>
-                                                                    <div class="cbp-pgopttooltip">
-                                                                        <span data-size="XL">XL</span>
-                                                                        <span data-size="L">L</span>
-                                                                        <span data-size="M">M</span>
-                                                                        <span data-size="S">S</span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="cbp-pgoptcolor">
-                                                                    <span data-color="c3">Orange</span>
-                                                                    <div class="cbp-pgopttooltip">
-                                                                        <span data-color="c1">Blue</span>
-                                                                        <span data-color="c2">Pink</span>
-                                                                        <span data-color="c3">Orange</span>
-                                                                        <span data-color="c4">Green</span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="cbp-pgoptcart"><i class="fa fa-shopping-cart"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="cbp-pginfo">
-                                                            <a href="product-view.html">
-                                                                <h3>Forrest Walk</h3>
-                                                            </a>
-                                                            <span class="cbp-pgprice">$39</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                                <div class="cbp-pggrid">
-                                                    <div class="cbp-pgcontent-list">
-                                                        <div class="cbp-pgcontent">
-                                                            <span class="cbp-pgrotate"><i class="fa fa-arrows-h"></i></span>
-                                                            <div class="cbp-pgitem">
-                                                                <div class="cbp-pgitem-flip">
-                                                                    <img src="img/shop/4_front.png" />
-                                                                    <img src="img/shop/4_back.png" />
-                                                                </div>
-                                                            </div>
-                                                            <!-- /cbp-pgitem -->
-                                                            <ul class="cbp-pgoptions">
-                                                                <li class="cbp-pgoptcompare"><i class="fa fa-exchange"></i></li>
-                                                                <li class="cbp-pgoptfav"><i class="fa fa-heart-o"></i></li>
-                                                                <li class="cbp-pgoptsize">
-                                                                    <span data-size="XL">XL</span>
-                                                                    <div class="cbp-pgopttooltip">
-                                                                        <span data-size="XL">XL</span>
-                                                                        <span data-size="L">L</span>
-                                                                        <span data-size="M">M</span>
-                                                                        <span data-size="S">S</span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="cbp-pgoptcolor">
-                                                                    <span data-color="c4">Green</span>
-                                                                    <div class="cbp-pgopttooltip">
-                                                                        <span data-color="c1">Blue</span>
-                                                                        <span data-color="c2">Pink</span>
-                                                                        <span data-color="c3">Orange</span>
-                                                                        <span data-color="c4">Green</span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="cbp-pgoptcart"><i class="fa fa-shopping-cart"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="cbp-pginfo">
-                                                            <a href="product-view.html">
-                                                                <h3>Land of Trees</h3>
-                                                            </a>
-                                                            <span class="cbp-pgprice">$35</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                                <div class="cbp-pggrid">
-                                                    <div class="cbp-pgcontent-list">
-                                                        <div class="cbp-pgcontent">
-                                                            <span class="cbp-pgrotate"><i class="fa fa-arrows-h"></i></span>
-                                                            <div class="cbp-pgitem">
-                                                                <div class="cbp-pgitem-flip">
-                                                                    <img src="img/shop/3_front.png" />
-                                                                    <img src="img/shop/3_back.png" />
-                                                                </div>
-                                                            </div>
-                                                            <!-- /cbp-pgitem -->
-                                                            <ul class="cbp-pgoptions">
-                                                                <li class="cbp-pgoptcompare"><i class="fa fa-exchange"></i></li>
-                                                                <li class="cbp-pgoptfav"><i class="fa fa-heart-o"></i></li>
-                                                                <li class="cbp-pgoptsize">
-                                                                    <span data-size="XL">XL</span>
-                                                                    <div class="cbp-pgopttooltip">
-                                                                        <span data-size="XL">XL</span>
-                                                                        <span data-size="L">L</span>
-                                                                        <span data-size="M">M</span>
-                                                                        <span data-size="S">S</span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="cbp-pgoptcolor">
-                                                                    <span data-color="c3">Orange</span>
-                                                                    <div class="cbp-pgopttooltip">
-                                                                        <span data-color="c1">Blue</span>
-                                                                        <span data-color="c2">Pink</span>
-                                                                        <span data-color="c3">Orange</span>
-                                                                        <span data-color="c4">Green</span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="cbp-pgoptcart"><i class="fa fa-shopping-cart"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="cbp-pginfo">
-                                                            <a href="product-view.html">
-                                                                <h3>Tree Shirt</h3>
-                                                            </a>
-                                                            <span class="cbp-pgprice">$29</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                                <div class="cbp-pggrid">
-                                                    <div class="cbp-pgcontent-list">
-                                                        <div class="cbp-pgcontent">
-                                                            <span class="cbp-pgrotate"><i class="fa fa-arrows-h"></i></span>
-                                                            <div class="cbp-pgitem">
-                                                                <div class="cbp-pgitem-flip">
-                                                                    <img src="img/shop/1_front.png" />
-                                                                    <img src="img/shop/1_back.png" />
-                                                                </div>
-                                                            </div>
-                                                            <!-- /cbp-pgitem -->
-                                                            <ul class="cbp-pgoptions">
-                                                                <li class="cbp-pgoptcompare"><i class="fa fa-exchange"></i></li>
-                                                                <li class="cbp-pgoptfav"><i class="fa fa-heart-o"></i></li>
-                                                                <li class="cbp-pgoptsize">
-                                                                    <span data-size="XL">XL</span>
-                                                                    <div class="cbp-pgopttooltip">
-                                                                        <span data-size="XL">XL</span>
-                                                                        <span data-size="L">L</span>
-                                                                        <span data-size="M">M</span>
-                                                                        <span data-size="S">S</span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="cbp-pgoptcolor">
-                                                                    <span data-color="c1">Blue</span>
-                                                                    <div class="cbp-pgopttooltip">
-                                                                        <span data-color="c1">Blue</span>
-                                                                        <span data-color="c2">Pink</span>
-                                                                        <span data-color="c3">Orange</span>
-                                                                        <span data-color="c4">Green</span>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="cbp-pgoptcart"><i class="fa fa-shopping-cart"></i></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="cbp-pginfo">
-                                                            <a href="product-view.html">
-                                                                <h3>Greenhouse</h3>
-                                                            </a>
-                                                            <span class="cbp-pgprice">$19</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End #cbp-pgcontainer -->                 
                             </div>
                         </div>
                     </section>
-                    <!-- Content End -->
+                    <!-- /Main Section -->
                     <!-- Footer Start -->
                     <footer id="footer">
                         <div class="pattern-overlay">
@@ -1039,8 +1202,91 @@
                                 </div>
                             </div>
                             <!-- Footer Bottom End --> 
+                        
+                            <!-- /Footer Bottom --> 
                         </div>
                     </footer>
+                    <!-- Modal -->
+                    <section id="modals">
+                        <!-- Login Modal -->
+                        <div class="modal login fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2 class="form-signin-heading modal-title" id="myModalLabel">Login</h2>
+                                    </div>
+                                    <form method="post" id="login">
+                                        <div class="modal-body">
+                                            <fieldset>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <input class="form-control" id="username" name="username" type="text" placeholder="Username" value="" required>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <input class="form-control" type="email" id="email" name="email" placeholder="Email" value="" required>
+                                                    </div>
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="password-recovery.html" class="pull-left">(Lost Password?)</a>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-color">Login</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Logan Modal -->
+                        <!-- Registration Modal -->
+                        <div class="modal register fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h2 class="form-signin-heading modal-title" id="myModalLabel">Create a new account</h2>
+                                    </div>
+                                    <form method="post" id="login">
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="form-group">
+                                                    <div class="col-md-6">
+                                                        <input type="text" value="" class="form-control" placeholder="First Name">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="text" value="" class="form-control" placeholder="Last Name">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group">
+                                                    <div class="col-md-12">
+                                                        <input type="text" value="" class="form-control" placeholder="E-mail Address">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group">
+                                                    <div class="col-md-6">
+                                                        <input type="password" value="" class="form-control" placeholder="Password">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <input type="password" value="" class="form-control" placeholder="Re-enter Password">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-color">Register</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Registration Modal -->
+                    </section>
                     <!-- Scroll To Top --> 
                     <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>
                 </div>
@@ -1123,12 +1369,6 @@
                 <script src="js/spectrum.js"></script>
                 <script src="js/switcher.js"></script>
                 <script src="js/custom.js"></script>
-                <script src="js/cbpShop.min.js"></script>
-                <script src="js/carouFredSel/jquery.carouFredSel-6.2.1-packed.js"></script>
-                <script src="js/carouFredSel/helper/jquery.mousewheel.min.js"></script>
-                <script src="js/carouFredSel/helper/jquery.touchSwipe.min.js"></script>
-                <script src="js/carouFredSel/helper/jquery.transit.min.js"></script>
-                <script src="js/carouFredSel/helper/jquery.ba-throttle-debounce.min.js"></script>
                 <script src="js/simpleGallery/jquery.simpleGallery.js"></script>
                 <script src="js/simpleGallery/jquery.simpleLens.js"></script>
                 <script src="js/product.js"></script>
