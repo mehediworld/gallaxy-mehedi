@@ -1,15 +1,9 @@
-
-
 <!DOCTYPE html>
-<!--[if IE 8]>          
-<html class="ie ie8">
-    <![endif]-->
-    <!--[if IE 9]>          
-    <html class="ie ie9">
-        <![endif]-->
-        <!--[if gt IE 9]><!-->  
-<html>
-    <!--<![endif]-->
+<!--[if IE 8]>          <html class="ie ie8"> <![endif]-->
+<!--[if IE 9]>          <html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->  
+<html> 
+	<!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <title>My Account Information | Gallaxy Responsive HTML5/CSS3 Template | FIFO THEMES</title>
@@ -34,9 +28,6 @@
         <link rel="stylesheet" href="css/colors/green.css" class="colors">
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="css/theme-responsive.css">
-        <!-- Switcher CSS -->
-        <link href="css/switcher.css" rel="stylesheet">
-        <link href="css/spectrum.css" rel="stylesheet">
         <!-- Switcher CSS -->
         <link href="css/switcher.css" rel="stylesheet">
         <link href="css/spectrum.css" rel="stylesheet">
@@ -361,18 +352,18 @@
                                             <ul class="list-unstyled">
                                                 <li>
                                                     <div class="form-group">
-                                                        <label for="exampleInputEmail1">First Name <span class="required">*</span></label>
-                                                        <input type="text" class="form-control" placeholder="Mr.">
+                                                        <label for="fname">First Name <span class="required">*</span></label>
+                                                        <input type="text" name="fname" id="fname" class="form-control" placeholder="Mr.">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="exampleInputEmail1">Last Name <span class="required">*</span></label>
-                                                        <input type="text" class="form-control" placeholder="Atiar">
+                                                        <label for="lname">Last Name <span class="required">*</span></label>
+                                                        <input type="text" name="lname" id="lname" class="form-control" placeholder="Atiar">
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="form-group">
-                                                        <label for="exampleInputEmail1">Email Address <span class="required">*</span></label>
-                                                        <input type="email" class="form-control" placeholder="mr-atiar@example.com">
+                                                        <label for="emailAddress">Email Address <span class="required">*</span></label>
+                                                        <input type="email" name="email" id="emailAddress" class="form-control" placeholder="mr-atiar@example.com">
                                                     </div>
                                                 </li>
                                             </ul>
@@ -384,18 +375,18 @@
                                             <ul class="list-unstyled">
                                                 <li>
                                                     <div class="form-group">
-                                                        <label for="exampleInputEmail1">Current Password <span class="required">*</span></label>
-                                                        <input type="password" class="form-control">
+                                                        <label for="cpassword">Current Password <span class="required">*</span></label>
+                                                        <input type="password" name="cpassword" id="cpassword" class="form-control">
                                                     </div>
                                                     <div class="form-group">
-                                                        <label for="exampleInputEmail1">New Password <span class="required">*</span></label>
-                                                        <input type="password" class="form-control">
+                                                        <label for="npassword">New Password <span class="required">*</span></label>
+                                                        <input type="password" name="npassword" id="npassword" class="form-control">
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="form-group">
-                                                        <label for="exampleInputEmail1">Confirm New Password <span class="required">*</span></label>
-                                                        <input type="password" class="form-control">
+                                                        <label for="cnewpassword">Confirm New Password <span class="required">*</span></label>
+                                                        <input type="password" name="cnewpassword" id="cnewpassword" class="form-control">
                                                     </div>
                                                 </li>
                                             </ul>
@@ -522,7 +513,7 @@
             <!-- Modal -->
             <section id="modals">
                 <!-- Login Modal -->
-                <div class="modal login fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal login fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -554,13 +545,13 @@
                 </div>
                 <!-- /Login Modal -->
                 <!-- Registration Modal -->
-                <div class="modal register fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal register fade" id="registrationModal" tabindex="-1" role="dialog" aria-labelledby="registrationModal" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h2 class="form-signin-heading modal-title" id="myModalLabel">Create a new account</h2>
-                            </div>
-                            <form method="post" id="login">
+                            <h2 class="form-signin-heading modal-title" id="registrationModalLabel">Create a new account</h2>
+                        </div>
+                        <form method="post" id="registration">
                                 <div class="modal-body">
                                     <div class="row">
                                         <div class="form-group">

@@ -1,4 +1,5 @@
 /* ===[ Responsive Media Queries ]===
+   ==================================================
    ================================================== */
 
 @media (min-width: 1200px) { 
@@ -81,9 +82,7 @@
         border-top: 0;
     }
 
-    .phone-login a {
-        margin-right: 15px;
-    }
+    .phone-login a { margin-right: 15px }
 
     #flickrfeed li { margin: 3px 3px 0 0 }
 
@@ -556,103 +555,8 @@
     #not-found h2 { font-size: 180px }
 }
 
-/* ===[ Blog ]===
-   ================================================== */
-
-@media (min-width: 980px) and (max-width:1048px) { 
-    .blog-showcase-thumb { width: 250px }
-
-    .blog-showcase-extra-info {
-        left: 250px;
-        width: 213px;
-    }
-
-    .blog-showcase ul li.blog-first-el { padding-right: 212px }
-
-    .blog-showcase ul li .blog-showcase-extra-info {
-        filter: alpha(opacity=0);
-        opacity: 0 !important;
-    }
-
-    .blog-showcase ul li.blog-first-el .blog-showcase-extra-info { opacity: 1!important }
-}
-
-@media handheld,only screen and (max-width:1140px) { 
-    .blog-showcase ul li .blog-showcase-extra-info {
-        zoom: 1;
-        filter: alpha(opacity=100);
-        opacity: 1;
-    }
-}
-
-@media handheld,only screen and (max-width:640px) { 
-    .blog-showcase ul li {
-        float: none!important;
-        display: block!important;
-        padding: 0!important;
-        margin-bottom: 15px;
-    }
-
-    .blog-showcase ul li .blog-showcase-extra-info { display: none!important }
-
-    .blog-showcase ul li .blog-showcase-thumb {
-        max-width: 100%;
-        width: 100%!important;
-        height: auto!important;
-        line-height: 4px;
-    }
-
-    .blog-showcase ul li .blog-showcase-thumb img {
-        max-width: 100%;
-        width: 100%;
-        height: auto!important;
-    }
-}
-
-/* ===[ Circular Navigation ]===
-   ================================================== */
-
-@media (min-width: 980px) and (max-width:1024px) { 
-    .csstransforms .cn-wrapper { font-size: .9em }
-}
-
-@media only screen and (max-width: 620px) { 
-    .no-csstransforms li {
-        width: 4em;
-        height: 4em;
-        line-height: 4em;
-    }
-}
-
-@media only screen and (max-width: 500px) { 
-    .no-ccstransforms .cn-wrapper { padding: .5em }
-
-    .no-csstransforms .cn-wrapper li {
-        font-size: .9em;
-        width: 4em;
-        height: 4em;
-        line-height: 4em;
-    }
-}
-
-@media only screen and (max-width: 480px) { 
-    .csstransforms .cn-wrapper {
-        font-size: .78em;
-        margin-left: -142px;
-    }
-
-    .cn-button { font-size: 1em }
-}
-
-@media only screen and (max-width:420px) { 
-    .no-csstransforms .cn-wrapper li {
-        width: 100%;
-        height: 3em;
-        line-height: 3em;
-    }
-}
-
 /* ===[ Coming soon page Small devices (tablets, 768px and less) ]===
+   ==================================================
    ================================================== */
 
 @media (max-width: 768px) { 
@@ -676,23 +580,11 @@
     .grid figure { width: 100% !important }
 }
 
-/* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-   ==================================================
-   ================================================== */
-
-/* ''''''''''''''''''''''''''''''WEB DEVELOPER'''''''''''''''''''''''''''''''
-   ==================================================
-   ================================================== */
-
-/* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-   ==================================================
-   ================================================== */
-
 /* ===[ Mobile portrait (320x480) ]===
    ================================================== */
 
 @media screen and (max-width:320px) { 
-    .grid figure { height: 214px }
+    .grid figure { height: 190px }
 
     .grid figure figcaption h2 { font-size: 14px }
 
@@ -717,7 +609,9 @@
     }
 }
 
+
 /* ===[ Mobile landscape (480x320) ]===
+   ==================================================
    ================================================== */
 
 @media screen and (min-width:320px) and (orientation:landscape) { 
@@ -736,7 +630,58 @@
     }
 }
 
+
+/* ===[ Mobile portrait (360x640) ]===
+   ================================================== */
+
+@media screen and (max-width:360px) { 
+    .grid figure { height: 190px }
+
+    .grid figure figcaption h2 { font-size: 14px }
+
+    figure.effect-zoe figcaption > span {
+        font-size: 12px;
+        padding: 2px 5px;
+        line-height: normal;
+    }
+
+    figure.effect-zoe p {
+        bottom: 6em;
+        font-size: 12px;
+    }
+
+    .portfolio-full-width .grid figure { height: 250px }
+
+    .portfolio-full-width .grid figure figcaption h2 { font-size: 14px }
+
+    .portfolio-full-width figure.effect-zoe figcaption > span {
+        font-size: 12px;
+        padding: 0px 7px;
+    }
+}
+
+/* ===[ Mobile landscape (640x360) ]===
+   ==================================================
+   ================================================== */
+
+@media screen and (min-width:360px) and (orientation:landscape) { 
+    .grid figure { height: 332px }
+
+    .grid figure figcaption h2 { font-size: 18px }
+
+    figure.effect-zoe figcaption > span {
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+
+    figure.effect-zoe p {
+        bottom: 5em;
+        font-size: 85%;
+    }
+}
+
 /* ===[ Small tablet portrait (600x800) ]===
+   ==================================================
    ================================================== */
 
 @media screen and (min-width:600px) and (orientation:portrait) { 
@@ -744,6 +689,7 @@
 }
 
 /* ===[ Small tablet landscape (800x600) ]===
+   ==================================================
    ================================================== */
 
 @media screen and (min-width:800px) and (orientation:landscape) { 
@@ -763,6 +709,7 @@
 }
 
 /* ===[ Tablet portrait (768x1024) ]===
+   ==================================================
    ================================================== */
 
 @media screen and (min-width:768px) and (orientation:portrait) { 
@@ -782,44 +729,29 @@
 }
 
 /* ===[ Tablet landscape (1024x768) ]===
+   ==================================================
    ================================================== */
 
 @media screen and (min-width:1024px) and (orientation:landscape) { 
     .grid figure { height: 346px }
 }
 
-/* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-   ==================================================
-   ================================================== */
-
-/* ''''''''''''''''''''''''''''''''''''IPAD''''''''''''''''''''''''''''''''''
-   ==================================================
-   ================================================== */
-
-/* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-   ==================================================
-   ================================================== */
-
 /* ===[ Ipad ]===
    ================================================== */
 
-/* iPads (landscape) -----------   */
+/* iPads (landscape) -----------    */
 
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) { 
     
 }
 
-/* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-   ==================================================
-   ================================================== */
-
-/* iPads (portrait) -----------   */
+/* iPads (portrait) -----------    */
 
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) { 
     
 }
 
-/* screen>1100   */
+/* screen>1100    */
 
 @media screen and (min-width:1100px) { 
     .grid figure { height: 420px }
@@ -849,7 +781,7 @@
     .portfolio-four-column .grid figure { height: 210px }
 }
 
-/* screen>1900   */
+/* screen>1900    */
 
 @media screen and (min-width:1900px) { 
     .portfolio-full-width .grid figure { height: 360px }
